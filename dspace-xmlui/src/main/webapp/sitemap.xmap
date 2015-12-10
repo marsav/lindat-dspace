@@ -211,7 +211,6 @@
                         <map:action name="DSpacePropertyFileReader" src="org.dspace.app.xmlui.cocoon.DSpacePropertyFileReader" />
                         <map:action name="PropertyFileReader" src="org.dspace.app.xmlui.cocoon.PropertyFileReader" />
                         <map:action name="CurrentActivityAction" src="org.dspace.app.xmlui.aspect.administrative.CurrentActivityAction" />
-                        <map:action name="DiscoJuiceFeeds" src="cz.cuni.mff.ufal.DiscoJuiceFeeds" />
                 </map:actions>
                 <map:pipes default="caching">
                         <map:pipe name="noncaching" src="org.apache.cocoon.components.pipeline.impl.NonCachingProcessingPipeline">
@@ -260,18 +259,6 @@
                 </map:pipeline>
                 <!-- end piwik -->        
         
-
-                <!-- ufal dicojuice feeds -->
-                <map:pipeline type="noncaching">
-                    <map:match pattern="discojuice/feeds">
-                        <map:act type="DiscoJuiceFeeds">
-                        	<map:read type="resource" src="discojuice/feeds/feeds.jsonp" mime-type="text/javascript; charset=utf-8"/>
-                        </map:act>
-                    </map:match>
-                </map:pipeline>
-                <!-- end feeds -->
-                
-
                 <!-- Bitstream pipeline -->
                 <map:pipeline type="noncaching">
                         <map:parameter name="outputBufferSize" value="8192"/>
