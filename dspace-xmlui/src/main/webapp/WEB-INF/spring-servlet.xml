@@ -28,7 +28,7 @@
        http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
 
     <!-- Use @Component annotations for bean definitions -->
-    <context:component-scan base-package="org.dspace.springmvc, cz.cuni.mff.ufal.springmvc"/>
+    <context:component-scan base-package="org.dspace.springmvc"/>
 
     <!-- Use @Controller annotations for MVC controller definitions -->
     <mvc:annotation-driven />

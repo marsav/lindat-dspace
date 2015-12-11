@@ -1,5 +1,5 @@
 /* Created for LINDAT/CLARIN */
-package cz.cuni.mff.ufal.springmvc;
+package cz.cuni.mff.ufal;
 
 import java.io.*;
 import java.net.MalformedURLException;
