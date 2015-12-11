@@ -17,6 +17,11 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 
+import org.apache.avalon.framework.parameters.Parameters;
+import org.apache.cocoon.acting.AbstractAction;
+import org.apache.cocoon.environment.ObjectModelHelper;
+import org.apache.cocoon.environment.Redirector;
+import org.apache.cocoon.environment.SourceResolver;
 import org.apache.log4j.Logger;
 import org.dspace.core.ConfigurationManager;
 
@@ -27,43 +32,26 @@ import org.json.simple.parser.ParseException;
 
 import com.maxmind.geoip.Location;
 import com.maxmind.geoip.LookupService;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.View;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@Controller
-@RequestMapping("/discojuice")
-public class DiscoJuiceFeeds {
+import static org.apache.commons.lang.StringUtils.isNotBlank;
+
+public class DiscoJuiceFeeds extends AbstractAction {
     /**
      * log4j logger.
      */
     private static Logger log = Logger.getLogger(DiscoJuiceFeeds.class);
 
-    @RequestMapping(method = RequestMethod.GET, value = {"/feeds"}, params = {"callback"})
-    public ModelAndView get(@RequestParam("callback") String callback) {
-        return new ModelAndView(new DiscoFeedsView(callback));
-    }
-
-}
-
-class DiscoFeedsView implements View{
-    private static Logger log = Logger.getLogger(DiscoFeedsView.class);
     private static final String discojuiceURL = "https://static.discojuice.org/feeds/";
 
     private static String feedsContent;
     private static ReadWriteLock lock = new ReentrantReadWriteLock();
     private static final ScheduledExecutorService executor = Executors.newScheduledThreadPool(1);
 
-    private String callback;
-
     static{
-        executor.scheduleWithFixedDelay(DiscoFeedsView::update,0,
+        executor.scheduleWithFixedDelay(DiscoJuiceFeeds::update,0,
                 ConfigurationManager.getLongProperty("discojuice", "refresh"), TimeUnit.HOURS);
     }
 
@@ -98,10 +86,6 @@ class DiscoFeedsView implements View{
         }
     }
 
-    public DiscoFeedsView(String callback){
-        this.callback = callback;
-    }
-
     public static void update(){
         lock.writeLock().lock();
         try{
@@ -111,30 +95,42 @@ class DiscoFeedsView implements View{
         }
     }
 
-    @Override
-    public String getContentType() {
-        return "application/javascript;charset=utf-8";
+    public String getContentType(boolean jsonp) {
+        if(jsonp) {
+            return "application/javascript;charset=utf-8";
+        }else{
+            return "application/json";
+        }
     }
 
     @Override
-    public void render(Map<String, ?> model, HttpServletRequest request, HttpServletResponse response) throws Exception {
+    public Map act(Redirector redirector, SourceResolver resolver, Map objectModel, String source, Parameters parameters) throws Exception {
+        HttpServletRequest request = ObjectModelHelper.getRequest(objectModel);
+        HttpServletResponse response = ObjectModelHelper.getResponse(objectModel);
+        String callback = request.getParameter("callback");
         lock.readLock().lock();
         try {
             if(feedsContent == null || feedsContent.isEmpty()){
                 response.sendRedirect(ConfigurationManager.getProperty("lr","lr.shibboleth.discofeed.url"));
             }else{
-                response.setContentType(this.getContentType());
+                boolean jsonp = isNotBlank(callback);
+                response.setContentType(this.getContentType(jsonp));
                 //response.setContentLength(?);
                 PrintWriter writer = response.getWriter();
-                writer.print(callback);
-                writer.print('(');
+                if(jsonp) {
+                    writer.print(callback);
+                    writer.print('(');
+                }
                 writer.print(feedsContent);
-                writer.print(')');
+                if(jsonp) {
+                    writer.print(')');
+                }
                 writer.close();
             }
         }finally {
             lock.readLock().unlock();
         }
+        return null;
     }
 
     public static String createFeedsContent(){
@@ -147,7 +143,7 @@ class DiscoFeedsView implements View{
         System.setProperty("jsse.enableSNIExtension", "false");
 
         //Obtain shibboleths discofeed
-        final Map<String,JSONObject> shibDiscoEntities = DiscoFeedsView.downloadJSON(shibbolethDiscoFeedUrl)
+        final Map<String,JSONObject> shibDiscoEntities = DiscoJuiceFeeds.downloadJSON(shibbolethDiscoFeedUrl)
                 .collect(Collectors.toMap(entity -> (String)entity.get("entityID"), Function.identity(),
                         (oldValue,newValue) -> {
                             /* System.err.println(String.format("Duplicite entry %s. Keeping first appearance", oldValue.get("entityID")));*/
@@ -161,7 +157,7 @@ class DiscoFeedsView implements View{
         System.setProperty("jsse.enableSNIExtension", old_value);
 
         Map<String, JSONObject> discoEntities = Arrays.asList(feedsConfig.split(",")).parallelStream()
-                .flatMap(feed -> DiscoFeedsView.downloadJSON(discojuiceURL + feed.trim()))
+                .flatMap(feed -> DiscoJuiceFeeds.downloadJSON(discojuiceURL + feed.trim()))
                 .filter((JSONObject entity) -> {
                     String entityID = (String)entity.get("entityID");
                     return shibDiscoEntities.containsKey(entityID);
@@ -254,7 +250,7 @@ class DiscoFeedsView implements View{
     //For testing
     public static void main(String[] args) throws Exception{
         long startTime = System.currentTimeMillis();
-        String feeds = DiscoFeedsView.createFeedsContent("edugain, dfn, cesnet, surfnet2, haka, kalmar", "https://lindat.mff.cuni.cz/Shibboleth.sso/DiscoFeed");
+        String feeds = DiscoJuiceFeeds.createFeedsContent("edugain, dfn, cesnet, surfnet2, haka, kalmar", "https://lindat.mff.cuni.cz/Shibboleth.sso/DiscoFeed");
         long endTime = System.currentTimeMillis();
         System.out.println((endTime - startTime)/1000);
         //System.out.println(feeds);
