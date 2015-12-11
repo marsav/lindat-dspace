@@ -22,6 +22,7 @@ import org.apache.cocoon.acting.AbstractAction;
 import org.apache.cocoon.environment.ObjectModelHelper;
 import org.apache.cocoon.environment.Redirector;
 import org.apache.cocoon.environment.SourceResolver;
+import org.apache.cocoon.generation.AbstractGenerator;
 import org.apache.log4j.Logger;
 import org.dspace.core.ConfigurationManager;
 
@@ -38,7 +39,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import static org.apache.commons.lang.StringUtils.isNotBlank;
 
-public class DiscoJuiceFeeds extends AbstractAction {
+public class DiscoJuiceFeeds extends AbstractGenerator {
     /**
      * log4j logger.
      */
@@ -104,7 +105,7 @@ public class DiscoJuiceFeeds extends AbstractAction {
     }
 
     @Override
-    public Map act(Redirector redirector, SourceResolver resolver, Map objectModel, String source, Parameters parameters) throws Exception {
+    public void generate() throws IOException {
         HttpServletRequest request = ObjectModelHelper.getRequest(objectModel);
         HttpServletResponse response = ObjectModelHelper.getResponse(objectModel);
         String callback = request.getParameter("callback");
@@ -130,7 +131,6 @@ public class DiscoJuiceFeeds extends AbstractAction {
         }finally {
             lock.readLock().unlock();
         }
-        return null;
     }
 
     public static String createFeedsContent(){
