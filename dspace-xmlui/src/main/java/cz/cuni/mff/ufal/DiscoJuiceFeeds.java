@@ -18,11 +18,13 @@ import java.util.stream.StreamSupport;
 
 
 import org.apache.avalon.framework.parameters.Parameters;
+import org.apache.cocoon.ProcessingException;
 import org.apache.cocoon.acting.AbstractAction;
 import org.apache.cocoon.environment.ObjectModelHelper;
 import org.apache.cocoon.environment.Redirector;
 import org.apache.cocoon.environment.SourceResolver;
 import org.apache.cocoon.generation.AbstractGenerator;
+import org.apache.cocoon.xml.dom.DOMStreamer;
 import org.apache.log4j.Logger;
 import org.dspace.core.ConfigurationManager;
 
@@ -33,9 +35,15 @@ import org.json.simple.parser.ParseException;
 
 import com.maxmind.geoip.Location;
 import com.maxmind.geoip.LookupService;
+import org.w3c.dom.CDATASection;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.xml.sax.SAXException;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 
 import static org.apache.commons.lang.StringUtils.isNotBlank;
 
@@ -105,31 +113,36 @@ public class DiscoJuiceFeeds extends AbstractGenerator {
     }
 
     @Override
-    public void generate() throws IOException {
+    public void generate() throws IOException, SAXException {
         HttpServletRequest request = ObjectModelHelper.getRequest(objectModel);
         HttpServletResponse response = ObjectModelHelper.getResponse(objectModel);
         String callback = request.getParameter("callback");
-        lock.readLock().lock();
         try {
-            if(feedsContent == null || feedsContent.isEmpty()){
-                response.sendRedirect(ConfigurationManager.getProperty("lr","lr.shibboleth.discofeed.url"));
-            }else{
-                boolean jsonp = isNotBlank(callback);
-                response.setContentType(this.getContentType(jsonp));
-                //response.setContentLength(?);
-                PrintWriter writer = response.getWriter();
-                if(jsonp) {
-                    writer.print(callback);
-                    writer.print('(');
+            Document doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();
+            //the root should be ignored by TextSerializer
+            Element root = doc.createElement("ignore_root");
+            lock.readLock().lock();
+            try {
+                if (feedsContent == null || feedsContent.isEmpty()) {
+                    response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Failed to obtain feeds.");
+                } else {
+                    boolean jsonp = isNotBlank(callback);
+                    CDATASection cdata;
+                    if(jsonp){
+                        cdata = doc.createCDATASection(callback + '(' + feedsContent + ')');
+                    }else{
+                        cdata = doc.createCDATASection(feedsContent);
+                    }
+                    root.appendChild(cdata);
+                    doc.appendChild(root);
+                    DOMStreamer streamer = new DOMStreamer(contentHandler, lexicalHandler);
+                    streamer.stream(doc);
                 }
-                writer.print(feedsContent);
-                if(jsonp) {
-                    writer.print(')');
-                }
-                writer.close();
+            } finally {
+                lock.readLock().unlock();
             }
-        }finally {
-            lock.readLock().unlock();
+        }catch (ParserConfigurationException e){
+            log.error(e);
         }
     }
 
