@@ -31,3 +31,8 @@ Optionally, you can also inspect our [travis integration](https://github.com/ufa
 
 * https://github.com/ufal/lindat-aai-info
 * https://github.com/ufal/lindat-aai-shibbie
+
+
+## CLARIN-LT
+
+* http://clarin.vdu.lt:8080/xmlui/
