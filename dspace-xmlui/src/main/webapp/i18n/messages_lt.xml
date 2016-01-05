@@ -98,12 +98,12 @@
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_community">Paieškos rezultatai rinkiniui: {0}</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_collection">Paieškos rezultatai rinkiniui: {0}</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_none">Paieškos rezultatai</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_none">Showing {0} through {1} out of {2} results</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_none">Rodomi rezultatai nuo {0} iki {1} iš visų {2}</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.result_query">Jūsų užklauska "{0}" atitiko {1} įrašą(-us).</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head2">Kolekcijos  ir rinkiniai, atitinkantys uzklausą</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head3">Įrašai, atitinkantys jūsų užklausą</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">Paieška nedavė rezultatų.</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">Elektronin&#279; saugykla</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">Visa saugykla</message>
 
    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.title">title</message>
    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateissued">issue date</message>
@@ -151,9 +151,9 @@
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_department">Department</message>
 
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_ANY">Pilnas tekstas</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.and">ir</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.or">arba</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.not">ne</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.and">AND (ir)</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.or">OR (arba)</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.not">NOT (ne)</message>
 
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ConfigurableBrowse.java -->
@@ -162,7 +162,7 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_select">Pereiti i:</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_month">(Pasirinkite menesi)</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">(pasirinkite metus)</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year">Or type in a year: </message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year">Arba įveskite metus: </message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year_help">Browse for items that are from the given year.</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.no_results">Nerasta įrašų peržiūrai.</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.sort_by"> Rušiavimas pagal: </message>
