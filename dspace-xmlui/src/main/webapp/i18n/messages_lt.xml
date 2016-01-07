@@ -33,15 +33,15 @@
 	<message key="xmlui.general.return">Grižti</message>
 	<message key="xmlui.general.update">Atnaujinti</message>
 	<message key="xmlui.general.delete">Ištrinti</message>
-	<message key="xmlui.general.next">Sekantis</message>
+	<message key="xmlui.general.next">Toliau</message>
 	<message key="xmlui.general.untitled">Nepavadintas</message>
 	    <message key="xmlui.general.perform">Atlikti</message>
 	    <message key="xmlui.general.queue">Eilė</message>
 
         <!-- Keys which are used by exception2dri.xsl on error pages -->
-        <message key="xmlui.error.contact_msg">Please contact the site administrator if you wish to report this error. If possible, please  provide details about what you were doing at the time this error occurred.</message>
-        <message key="xmlui.error.contact">Contact site administrator</message>
-        <message key="xmlui.error.show_stack">Show underlying error stack</message>
+        <message key="xmlui.error.contact_msg">Jei norite pranešti apie šią klaidą, prašome susisiekti su sistemos administratoriumi. Jei įmanoma, prašome pateikti detales apie Jūsų veiklą sistemoje tuo metu, kai nutiko klaida.</message>
+        <message key="xmlui.error.contact">Susisiekti su sistemos administratoriumi</message>
+        <message key="xmlui.error.show_stack">Rodyti sukeltų klaidų sąrašą</message>
 
 	<!--
 		Page not found keys
@@ -54,31 +54,31 @@
 	<message key="xmlui.PageNotFound.para1">Negalime rasti puslapio pagal J&#363;s&#371; u&#382;klaus&#261;.</message>
 
 	<!--  session expired  -->
-	<message key="xmlui.SessionExpired.title">Your Session has Expired</message>
-	<message key="xmlui.SessionExpired.head">To login and continue, click </message>
-	<message key="xmlui.SessionExpired.para1">In case that there are other problems, please contact the </message>
+	<message key="xmlui.SessionExpired.title">Jūsų sesijos laikas baigėsi</message>
+	<message key="xmlui.SessionExpired.head">Norėdami prisijungti ir tęsti, spauskite </message>
+	<message key="xmlui.SessionExpired.para1">Iškilus kitoms problemoms, prašome susisiekti su </message>
 
 
 	<!--
 	   The "utils" non-aspect
        -->
 	<message key="xmlui.utils.AuthenticationUtil.onlyAdmins">Tik sistemų administratoriai gali prisijungti kaip kitas vartotojas.</message>
-	<message key="xmlui.utils.AuthenticationUtil.onlyAuthenticatedAdmins">Only authenticated users who are administrators may assume the login as another user.</message>
-	<message key="xmlui.utils.AuthenticationUtil.notAnotherAdmin">You may not assume the login as another administrator.</message>
+	<message key="xmlui.utils.AuthenticationUtil.onlyAuthenticatedAdmins">Tik autentifikuoti sistemų administratoriai gali prisijungti kaip kitas vartotojas.</message>
+	<message key="xmlui.utils.AuthenticationUtil.notAnotherAdmin">Jūs negalite prisijungti kito administratoriaus teisėmis.</message>
 
 
 	<!--
 		This section is for feed syndications (RSS, atom, etc)
 	-->
-    <message key="xmlui.feed.general_description">The LINDAT/CLARIN digital repository system captures, stores, indexes, preserves, and distributes digital research material.</message>
-    <message key="xmlui.feed.header">RSS Feeds</message>
-	<message key="xmlui.feed.logo_title">The Channel Image</message>
-	<message key="xmlui.feed.untitled">2Neapibrėžtas</message>
+    <message key="xmlui.feed.general_description">LINDAT/CLARIN skaitmeninės saugyklos sistema fiksuoja, saugo, indeksuoja, išplatina skaitmeninę tyrimų medžiagą.</message>
+    <message key="xmlui.feed.header">RSS Srautai</message>
+	<message key="xmlui.feed.logo_title">Kanalo iliustracija</message>
+	<message key="xmlui.feed.untitled">Neapibrėžtas</message>
 
 	<!--
 		Default notice header
 	 	-->
-	<message key="xmlui.general.notice.default_head">Notice</message>
+	<message key="xmlui.general.notice.default_head">Pranešimas</message>
 
 
 
@@ -105,50 +105,50 @@
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">Paieška nedavė rezultatų.</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">Visa saugykla</message>
 
-   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.title">title</message>
-   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateissued">issue date</message>
-   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateaccessioned">submit date</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.relevance">Relevance</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by">Sort items by</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.order">in order</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.order.asc">didejanciai</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.order.desc">mazejanciai</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.rpp">Results/page</message>
+   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.title">Pavadinimas</message>
+   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateissued">Problemos iškėlimo data</message>
+   <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateaccessioned">Įkėlimo data</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.relevance">Tinkamumas</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by">Rūšiuoti įrašus pagal</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.order">tvarka</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.order.asc">didėjančiai</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.order.desc">mažėjančiai</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.rpp">Rezultatai/puslapis</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.title">Išplėstinė paieška</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.trail">Išplėstinė paieška</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.head">Išplėstinė paieška</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_scope">Paieškos aprėptis</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_scope_help">Limit your search to a community or collection.</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_scope_help">Apribokite paiešką iki vienos kolekcijos arba rinkinio.</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.conjunction">Conjunction</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_type">Search type</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_type">Paieškos tipas</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_for">Ieškoti pagal</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_author">Author</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_title">Title</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Subject</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_abstract">Abstract</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_series">Series</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_sponsor">Sponsor</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">Identifier</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">Language (ISO)</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">Keyword</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_hasfile">Contain Files</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.hasfile">Contain Files</message>
-	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_branding">Community</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.branding">Community</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_author">Autorius</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_title">Pavadinimas</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Tema</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_abstract">Santrauka</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_series">Serija</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_sponsor">Rėmėjas</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">Identifikatorius</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">Kalba (ISO)</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">Raktažodis</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_hasfile">Turėti bylas</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.hasfile">Turėti bylas</message>
+	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_branding">Kolekcija</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.branding">Kolekcija</message>
 
 
    <!--  some common other possibilities for Advanced Search Fields -->
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Contributor</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Creator</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Subject</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Description</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Relation</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Mime-Type</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Autorius</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Tema</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Aprašymas</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Santykis</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Mime tipas</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_other">Other Contributor</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_advisor">Advisor</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_department">Department</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_department">Departamentas</message>
 
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_ANY">Pilnas tekstas</message>
 	<message key="xmlui.ArtifactBrowser.AdvancedSearch.and">AND (ir)</message>
@@ -158,114 +158,114 @@
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ConfigurableBrowse.java -->
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with">Arba įveskite keletą pirmų paieškos žodžio raidžių:</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with_help">Browse for items that begin with these letters</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_select">Pereiti i:</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_month">(Pasirinkite menesi)</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">(pasirinkite metus)</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with_help">Ieškokite įrašų, kurie prasideda šiomis raidėmis</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_select">Pereiti į:</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_month">(Pasirinkite mėnesį)</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">(Pasirinkite metus)</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year">Arba įveskite metus: </message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year_help">Browse for items that are from the given year.</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year_help">Ieškokite įrašų pagal įvestus metus.</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.no_results">Nerasta įrašų peržiūrai.</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.sort_by"> Rušiavimas pagal: </message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.sort_by"> Rūšiavimas pagal: </message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.order"> Rikiavimas: </message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.rpp"> Resultatai: </message><!-- /Page -->
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.etal"> Authors/Item: </message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.rpp"> Rezultatai: </message><!-- /Page -->
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.etal"> Autoriai/Įrašas: </message>
 
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.etal.all">All</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.etal.all">Visi</message>
 
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.title">title</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateissued">issue date</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateaccessioned">submit date</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.title">Pavadinimas</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateissued">Problemos iškėlimo data</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateaccessioned">Įkėlimo data</message>
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.order.asc">didėjančiai</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.order.desc">mažejančiai</message>
 
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.author.column_heading">Autoriaus pavardė, vardas</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.subject.column_heading">Tema</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.rights.column_heading">Rights Label</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.rights.column_heading">Teisės</message>
 
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.author">Browsing {0} by Author {1}</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.author">Browsing {0} by Author</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.author">Filtravimas {0} pagal autorių {1}</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.author">Filtravimas {0} pagal autorių</message>
 
-    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.rights">Browsing {0} by Rights Label {1}</message>
-    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.rights">Browsing {0} by Rights Label</message>
+    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.rights">Filtravimas {0} pagal teises {1}</message>
+    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.rights">Filtravimas {0} pagal teises</message>
 
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.subject">Browsing {0} by Subject {1}</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.subject">Browsing {0} by Subject</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.subject">Filtravimas {0} pagal subjektą {1}</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.subject">Filtravimas {0} pagal subjektą</message>
 
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.title">Browsing {0} by Title {1}</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.title">Browsing {0} by Title</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.title">Filtravimas {0} pagal pavadinimą {1}</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.title">Filtravimas {0} pagal pavadinimą</message>
 
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateissued">Browsing {0} by Issue Date {1}</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateissued">Browsing {0} by Issue Date</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateissued">Filtravimas {0} pagal užduoties sukūrimo datą {1}</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateissued">Filtravimas {0} pagal užduoties sukūrimo datą</message>
 
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">Browsing {0} by Submit Date {1}</message>
-	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Browsing {0} by Submit Date</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">Filtravimas {0} pagal pateikimo datą {1}</message>
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Filtravimas {0} pagal pateikimo datą</message>
 
-    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.publisher">Browsing by Publisher</message>
-    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.publisher">Browsing by Publisher</message>
-        <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.publisher.column_heading">Publisher</message>
+    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.publisher">Filtravimas pagal leidėją</message>
+    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.publisher">Filtravimas pagal leidėją</message>
+        <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.publisher.column_heading">Leidėjas</message>
 
-    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.language">Browsing by Language</message>
-    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.language">Browsing by Language</message>
-        <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.language.column_heading">Language</message>
+    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.language">Filtravimas pagal kalbą</message>
+    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.language">Filtravimas pagal kalbą</message>
+        <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.language.column_heading">Kalba</message>
 
-    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.type">Browsing by Type</message>
-    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.type">Browsing by Type</message>
-        <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.type.column_heading">Type</message>
+    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.type">Filtravimas pagal tipą</message>
+    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.type">Filtravimas pagal tipą</message>
+        <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.type.column_heading">Tipas</message>
 
     <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.mediatype">Browsing by Medium Type</message>
     <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.mediatype">Browsing by Medium Type</message>
         <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.mediatype.column_heading">Medium Type</message>
 
-    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.rights">Browsing by Rights</message>
-    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.rights">Browsing by Rights</message>
-    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.rights.column_heading">Rights</message>
+    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.rights">Filtravimas pagal teises</message>
+    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.rights">Filtravimas pagal teises</message>
+    <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.rights.column_heading">Teisės</message>
 
 	<!-- org.dspace.app.xmlui.administrative.WithdrawnItems.java -->
-	<message key="xmlui.Administrative.WithdrawnItems.title.item.title">Withdrawn Items by Title</message>
-	<message key="xmlui.Administrative.WithdrawnItems.trail.item.title">Withdrawn Items by Title</message>
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.title">Atšaukti įrašai pagal pavadinimą</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.title">Atšaukti įrašai pagal pavadinimą</message>
 
-	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateissued">Withdrawn Items by Issue Date</message>
-	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateissued">Withdrawn Items by Issue Date</message>
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateissued">Atšaukti įrašai pagal užduoties sukūrimo datą</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateissued">Atšaukti įrašai pagal užduoties sukūrimo datą</message>
 
-	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateaccessioned">Withdrawn Items by Submit Date</message>
-	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateaccessioned">Withdrawn Items by Submit Date</message>
+	<message key="xmlui.Administrative.WithdrawnItems.title.item.dateaccessioned">Atšaukti įrašai pagal pateikimo datą</message>
+	<message key="xmlui.Administrative.WithdrawnItems.trail.item.dateaccessioned">Atšaukti įrašai pagal pateikimo datą</message>
 
 	<!-- org.dspace.app.xmlui.administrative.PrivateItems.java -->
-	<message key="xmlui.Administrative.PrivateItems.title.item.title">Private Items by Title</message>
-	<message key="xmlui.Administrative.PrivateItems.trail.item.title">Private Items by Title</message>
+	<message key="xmlui.Administrative.PrivateItems.title.item.title">Privatūs įrašai pagal pavadinimą</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.title">Privatūs įrašai pagal pavadinimą</message>
 
-	<message key="xmlui.Administrative.PrivateItems.title.item.dateissued">Private Items by Issue Date</message>
-	<message key="xmlui.Administrative.PrivateItems.trail.item.dateissued">Private Items by Issue Date</message>
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateissued">Privatūs įrašai pagal užduoties sukūrimo datą</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateissued">Privatūs įrašai pagal užduoties sukūrimo datą</message>
 
-	<message key="xmlui.Administrative.PrivateItems.title.item.dateaccessioned">Private Items by Submit Date</message>
-	<message key="xmlui.Administrative.PrivateItems.trail.item.dateaccessioned">Private Items by Submit Date</message>
+	<message key="xmlui.Administrative.PrivateItems.title.item.dateaccessioned">Privatūs įrašai pagal pateikimo datą</message>
+	<message key="xmlui.Administrative.PrivateItems.trail.item.dateaccessioned">Privatūs įrašai pagal pateikimo datą</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.search_scope">Paieškos aprėptis</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">Elektronin&#279; saugykla</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.full_text_search">Ieškoti šiame rinkinyje</message>
-	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_browse">Peržiura pagal</message>
+	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_browse">Peržiūra pagal</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_titles">Pavadinimus</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_authors">Autorius</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_dates">Datas</message>
-	<message key="xmlui.ArtifactBrowser.CollectionViewer.advanced_search_link">Išplėstinė paiešką</message>
+	<message key="xmlui.ArtifactBrowser.CollectionViewer.advanced_search_link">Išplėstinė paieška</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">Naujausi įrašai</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityBrowser.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.title">Kolekcijos ir leidinių rinkiniai</message>
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.trail">Kolekcijos ir leidinių rinkiniai</message>
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">Kolekcijos ir leidini&#371; rinkiniai</message>
-	<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">Select a community to browse its collections.</message>
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">Pasirinkite kolekciją norėdami peržiūrėti jai priklausančius rinkinius.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.search_scope">Paieškos aprėptis</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.all_of_dspace">Elektronin&#279; saugykla</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">Ieškoti šioje kolekcijoje ir jos rinkiniuose </message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_browse">Ieškoti pagal</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_titles">Titles</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_authors">Authors</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_dates">Dates</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_titles">Pavadinimą</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_authors">Autorius</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_dates">Datas</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.advanced_search_link">Išplėstinė paieška</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_communities">Žemesnio lygio kolekcijos šioje kolekcijoje</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_collections">Rinkiniai šioje kolekcijoje</message>
@@ -282,24 +282,24 @@
 	<message key="xmlui.ArtifactBrowser.Contact.email">El. paštu</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackForm.java -->
-	<message key="xmlui.ArtifactBrowser.FeedbackForm.title">Give feedback</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackForm.trail">Give feedback</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackForm.head">Give feedback</message>
-    <message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Thanks for sharing your feedback. Your comments are appreciated!</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackForm.email">Your Email</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackForm.email_help">This address will be used to follow up on your feedback.</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackForm.comments">Comments</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackForm.submit">Send Feedback</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackForm.title">Pateikti atsiliepimą</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackForm.trail">Pateikti atsiliepimą</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackForm.head">Pateikti atsiliepimą</message>
+    <message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Dėkojame už Jūsų atsiliepimą. Jūsų komentarai yra vertinami!</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackForm.email">Jūsų el. pašto adresas</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackForm.email_help">Šis adresas bus naudojamas sekant Jūsų atsiliepimą.</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackForm.comments">Komentarai</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackForm.submit">Siųsti atsiliepimą</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackSent.java -->
-	<message key="xmlui.ArtifactBrowser.FeedbackSent.title">Give feedback</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackSent.trail">Give feedback</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackSent.head">Feedback sent</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackSent.para1">Your comments have been received.</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackSent.title">Pateikti atsiliepimą</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackSent.trail">Pateikti atsiliepimą</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackSent.head">Atsiliepimas išsiųstas</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackSent.para1">Jūsų komentaras yra priimtas.</message>
 
     <!-- org.dspace.app.xmlui.artifactbrowser.FrontPageSearch.java -->
-    <message key="xmlui.ArtifactBrowser.FrontPageSearch.head">Search Repository</message>
-    <message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">Enter some text in the box below to search Repository.</message>
+    <message key="xmlui.ArtifactBrowser.FrontPageSearch.head">Ieškoti saugykloje</message>
+    <message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">Norėdami ieškoti saugykloje, įveskite paieškos tekstą žemiau esančiame laukelyje.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
 	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">Įrašo peržiūra</message>
@@ -316,15 +316,15 @@
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_title">Antra&#353;t&#279;</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_author">Autorius</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_subject">Tema</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateissued">Issue Date</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateaccessioned">By Submit Date</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.browse_rights">Rights Label</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateissued">Problemos iškėlimo data</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateaccessioned">Pagal pateikimo datą</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_rights">Teisės</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_this_collection">Šis rinkinys</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">Ši kolekcija</message>
 
-	<message key="xmlui.ArtifactBrowser.Navigation.browse_publisher">Publisher</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.browse_language">Language</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.browse_type">Type</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_publisher">Leidėjas</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_language">Kalba</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_type">Tipas</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_mediatype">Medium Type</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.SimpleSearch.java -->
@@ -335,59 +335,59 @@
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.full_text_search">Pilno teksto paieška</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.RestrictedItem.java -->
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.title">This resource is restricted</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.trail">Restricted</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_resource">This resource is restricted</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_community">This community is restricted</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_collection">This collection is restricted</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_item">This item is restricted</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_bitstream">This bitstream is restricted</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_resource">You do not have the credentials to access the restricted resource.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_community">You do not have the credentials to access the restricted community <b>{0}</b>.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_collection">You do not have the credentials to access the restricted collection <b>{0}</b>.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item">You do not have the credentials to access the restricted item <b>{0}</b>.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.title">Šis išteklius yra ribojamas</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.trail">Ribojama</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_resource">Šis išteklius yra ribojamas</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_community">Ši kolekcija yra ribojama</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_collection">Šis rinkinys yra ribojamas</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_item">Šis įrašas yra ribojamas</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_bitstream">Šis duomenų srautas yra ribojamas</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_resource">Jūs neturite įgaliojimų prieigai prie ribojamo ištekliaus.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_community">Jūs neturite įgaliojimų prieigai prie ribojamos kolekcijos <b>{0}</b>.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_collection">Jūs neturite įgaliojimų prieigai prie ribojamo rinkinio <b>{0}</b>.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item">Jūs neturite įgaliojimų prieigai prie ribojamo įrašo <b>{0}</b>.</message>
 
-    <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_replaced">This item is replaced by a newer version</message>
-    <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_replacedby">The requested item <b>{0}</b> is replaced by a new version which should be used instead. If you require this particular version, request it through our <a class="helpdesk-tolink">Help Desk</a>.</message>
+    <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_replaced">Šis įrašas yra pakeistas naujesne versija</message>
+    <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_replacedby">Pageidaujamas įrašas <b>{0}</b> yra pakeistas naujesne versija, kuri turi būti naudojama. Jei Jums reikalinga senesnė versija, paprašykite jos naudodami<a class="helpdesk-tolink">pagalbos langą</a>.</message>
 
-    <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_claimed"><h4>This item is managed by another repository</h4></message>
-    <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_claimed">You will find this item at the following location(s):</message>
-    <message key="xmlui.ArtifactBrowser.RestrictedItem.para2_item_claimed">The author(s) asked us to hide this submission. <strong>We still keep all the data and metadata of the original submission</strong> but the submission is now located at the above url(s). If you need the contents of the original submission, contact us at our <a class="helpdesk-tolink">Help Desk</a>.</message>
+    <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_claimed"><h4>Šis įrašas yra valdomas kitoje saugykloje</h4></message>
+    <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_claimed">Įrašą galite rasti šioje(-se) vietoje(-se):</message>
+    <message key="xmlui.ArtifactBrowser.RestrictedItem.para2_item_claimed">Autorius(-iai) reikalavo paslėpti šį pateikimą. <strong>Mes iki šiol išsaugojome visus originalaus pateikimo duomenis ir metaduomenis,</strong> bet dabar pateikimą galima pasiekti tik per aukščiau esančią(-as) nuorodą(-as). Jei Jums reikalingas originalaus pateikimo turinys, susisiekite su mumis naudodami <a class="helpdesk-tolink">pagalbos langą</a>.</message>
 
-    <message key="xmlui.administrative.item.ConfirmItemForm.withdraw_para_extraInfo">You may wish to provide some extra information; a handle in case the item was moved someplace else and/or reason for the removal.</message>
-    <message key="xmlui.administrative.item.ConfirmItemForm.withdraw_help_extra_handle">If you fill this, users wanting to view the item will get special message. With a link created from the new PID.</message>
-    <message key="xmlui.administrative.item.ConfirmItemForm.withdraw_label_extra_handle">The new PID:</message>
-    <message key="xmlui.administrative.item.ConfirmItemForm.withdraw_help_extra_reason">The reason why the item was withdrawn will be added to the dc.description.provenance</message>
-    <message key="xmlui.administrative.item.ConfirmItemForm.withdraw_label_extra_reason">Reason:</message>
+    <message key="xmlui.administrative.item.ConfirmItemForm.withdraw_para_extraInfo">Jūs galbūt norėsite pateikti papildomos informacijos jei įrašas buvo perkeltas į kitą vietą ir/arba pašalinimo priežasčiai paaiškinti.</message>
+    <message key="xmlui.administrative.item.ConfirmItemForm.withdraw_help_extra_handle">Jei tai užpildysite, įrašą norintys peržiūrėti vartotojai gaus specialią žinutę su iš naujo PID sukurta nuoroda.</message>
+    <message key="xmlui.administrative.item.ConfirmItemForm.withdraw_label_extra_handle">Naujas PID:</message>
+    <message key="xmlui.administrative.item.ConfirmItemForm.withdraw_help_extra_reason">Priežastis, kodėl įrašas buvo atšauktas, bus pridėta į dc.description.provenance</message>
+    <message key="xmlui.administrative.item.ConfirmItemForm.withdraw_label_extra_reason">Priežastis:</message>
 
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_bitstream">You do not have the credentials to access the restricted bitstream <b>{0}</b>.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_collection">collection</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_community">community</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_bitstream">bitstream</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_item">item</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_resource">resource</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.unknown">unknown</message>
-        <message key="xmlui.ArtifactBrowser.RestrictedItem.login">Proceed to login screen</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_bitstream">Jūs neturite įgaliojimų prieigai prie ribojamo duomenų srauto <b>{0}</b>.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_collection">rinkinys</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_community">kolekcija</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_bitstream">duomenų srautas</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_item">įrašas</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_resource">išteklius</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.unknown">nežinomas</message>
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.login">Pereiti į prisijungimo langą</message>
 
-        <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">This item is withdrawn</message>
-        <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">The selected item is withdrawn and is no longer available.</message>
-        <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">The selected item is access restricted and requires credentials to view. Please login to access the item.</message>
-        <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Your user account does not have the credentials to view this item. Please contact the <a class="helpdesk-tolink">Help Desk</a> if you have any questions.</message>
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">Šis įrašas yra atšauktas</message>
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">Pasirinktas įrašas yra atšauktas ir daugiau nebeprieinamas.</message>
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">Prieiga prie pasirinkto įrašo ribojama ir reikalauja papildomų įgaliojimų peržiūrai. Prisijunkite norėdami pasiekti įrašą.</message>
+        <message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Jūsų vartotojo paskyra nesuteikia įgaliojimų šio įrašo peržiūrai. Prašome susisiekti per <a class="helpdesk-tolink">pagalbos langą</a> jei turite klausimų.</message>
 
 	<!-- Authentication messages used at the top of the login page:  -->
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_header">The item is restricted</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_message">The item you are attempting to access is a restricted item and requires credentials to view. Please login below to access the item.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_header">Šis įrašas yra ribojamas</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_message">Įrašas, kurį ketinate pasiekti, yra ribotos prieigos ir reikalauja įgaliojimų peržiūrai. Prisijunkite žemiau norėdami pasiekti įrašą.</message>
 
-    <message key="xmlui.ArtifactBrowser.StatisticsViewer.choose_month">Monthly Reports</message>
-    <message key="xmlui.ArtifactBrowser.StatisticsViewer.report.title">Statistical Summary</message>
+    <message key="xmlui.ArtifactBrowser.StatisticsViewer.choose_month">Mėnesinė ataskaita</message>
+    <message key="xmlui.ArtifactBrowser.StatisticsViewer.report.title">Statistinė suvestinė</message>
 
-    <message key="xmlui.ArtifactBrowser.StatisticsViewer.no_report.title">No reports currently available</message>
-    <message key="xmlui.ArtifactBrowser.StatisticsViewer.no_report.text">There are currently no reports available for this service.  Please check back later.</message>
+    <message key="xmlui.ArtifactBrowser.StatisticsViewer.no_report.title">Šiuo metu ataskaitos yra neprieinamos</message>
+    <message key="xmlui.ArtifactBrowser.StatisticsViewer.no_report.text">Šiai paslaugai ataskaitų šiuo metu nėra. Prašome patikrinti vėliau.</message>
 
     <!-- Authentication messages used for bitstream authentication -->
-	<message key="xmlui.BitstreamReader.auth_header">The file is restricted</message>
-	<message key="xmlui.BitstreamReader.auth_message">The file you are attempting to access is a restricted file and requires credentials to view. Please login below to access the file.</message>
-    <message key="xmlui.BitstreamReader.auth_embargo_message">The file you are attempting to access is a restricted file. The author placed an embargo date to the associated bitstream(s) which means that the bitstreams will be available in future. You can either try to contact the author directly or use our <a class="helpdesk-tolink">Help Desk</a>.</message>
+	<message key="xmlui.BitstreamReader.auth_header">Byla yra ribojama</message>
+	<message key="xmlui.BitstreamReader.auth_message">Prieiga prie pasirinktos bylos ribojama ir reikalauja papildomų įgaliojimų peržiūrai. Prisijunkite žemiau norėdami pasiekti failą.</message>
+    <message key="xmlui.BitstreamReader.auth_embargo_message">Prieiga prie bylos, kurią ketinate pasiekti, yra ribojama. Autorius nustatė draudimo datą susijusiems bitų srautams, o tai reiškia, kad jie bus galimi ateityje. Jūs galite bandyti susisiekti su autoriumi tiesiogiai arba naudoti mūsų <a class="helpdesk-tolink">pagalbos langą</a>.</message>
 
 	<!-- Export Archive download messages -->
 	<message key="xmlui.ItemExportDownloadReader.auth_header">This export archive is restricted.</message>
@@ -396,106 +396,106 @@
 
 	<!-- REQUEST COPY -->
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestForm.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.title">Request a copy of the document</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.trail">Request a copy of the document</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.head">Request a copy of the document</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestForm.login_para">Users of this system, can login to view this document.</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestForm.login">Login</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestForm.para1">Enter the following information to request a copy of the document from the responsible person.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail">Your e-mail address</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail_help">This email address is used for sending the document.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail.error">E-mail is mandatory</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message">Message</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message.error">Message is mandatory</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.files">Files</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.allFiles">All files (of this document) in restricted access.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.notAllFiles">Only The requested file.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName">Name</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName.error">Name is required</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestForm.submit">Request copy</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.title">Paprašyti dokumento kopijos</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.trail">Paprašyti dokumento kopijos</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.head">Paprašyti dokumento kopijos</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.login_para">Šios sistemos vartotojai gali prisijungti, norėdami peržiūrėti šį dokumentą.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.login">Prisijungti</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestForm.para1">Įveskite šią informaciją jei norite paprašyti dokumento kopijos iš atsakingo asmens.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail">Jūsų el. pašto adresas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail_help">Šis el. pašto adresas naudojamas dokumento atsiuntimui.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterEmail.error">El. pašto adresą privaloma nurodyti</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message">Žinutė</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.message.error">Žinutę privaloma įvesti</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.files">Bylos</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.allFiles">Visos bylos (šio dokumento) yra ribotos prieigos.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.notAllFiles">Tik prašoma byla.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName">Vardas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.requesterName.error">Vardą privaloma įvesti</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestForm.submit">Prašyti kopijos</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestSent.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestSent.title">Your request has been sent.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestSent.trail">Your request has been sent.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestSent.head">Your request has been sent.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestSent.para1">Your request has been sent to the author or responsible person.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.title">Jūsų prašymas išsiųstas.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.trail">Jūsų prašymas išsiųstas.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.head">Jūsų prašymas išsiųstas.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestSent.para1">Jūsų prašymas išsiųstas autoriui arba atsakingam asmeniui.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseDecisionForm.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.title">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.trail">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.head">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para1">IF YOU ARE THE AUTHOR (OR AN AUTHOR) OF DOCUMENT "{0}" use the buttons to answer the user's request.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para2">This repository will propose an appropriate model reply, which you may edit.</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactRequester">Initial reply to requester</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactAuthor"> Author permission request</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Send copy</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.dontSend">Don't send copy</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.title">Dokumento kopijos prašymas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.trail">Dokumento kopijos prašymas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.head">Dokumento kopijos prašymas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para1">JEI JŪS ESATE DOKUMENTO "{0}" AUTORIUS naudokite mygtukus, kad atsakytumėte į vartotojų prašymus.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.para2">Ši saugykla pasiūlys tinkamą atsakymo modelį, kurį galėsite redaguoti.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactRequester">Pirminis atsakymas prašytojui</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.contactAuthor"> Autoriaus leidimo prašymas</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.send">Siųsti kopiją</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseDecisionForm.dontSend">Nesiųsti kopijos</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseTrueForm.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.title">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.trail">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.head">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.para1">This is the text to be sent to the applicant.</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.message">Message</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.subject">Subject</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.mail">Send</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.back">Back</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.title">Dokumento kopijos prašymas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.trail">Dokumento kopijos prašymas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.head">Dokumento kopijos prašymas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.para1">Čia yra tekstas, kuris bus siunčiamas prašytojui.</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.message">Žinutė</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.subject">Tema</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.mail">Siųsti</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseFalseForm.back">Grįžti</message>
 
     <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseFalseForm.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.title">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.trail">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.head">Document copy request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.para1">This is the text to be sent to the applicant (together with the document).</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.message">Message</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.subject">Subject</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.mail">Send</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.back">Back</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.title">Dokumento kopijos prašymas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.trail">Dokumento kopijos prašymas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.head">Dokumento kopijos prašymas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.para1">Čia yra tekstas, kuris bus siunčiamas prašytojui (kartu su dokumentu).</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.message">Žinutė</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.subject">Tema</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.mail">Siųsti</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestResponseTrueForm.back">Grįžti</message>
 
 	 <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestChangeStatusForm.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.title">Change permissions request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.trail">Change permissions request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.head">Change permissions request</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.para1">You may use this occasion to reconsider the access restrictions on the document (to avoid having to respond to these requests), if there is no reason to keep it restricted. To do so, after inserting your name and e-mail (for authentication), click the button "Change to Open Access".</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name">Name</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email">E-mail</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name.error">The name is required</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email.error">The e-mail address is required</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.changeToOpen">Change to open access</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.title">Keisti leidimo prašymą</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.trail">Keisti leidimo prašymą</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.head">Keisti leidimo prašymą</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.para1">Galbūt norite persvarstyti šio dokumento prieigos ribojimus (siekiant išvengti atsakinėjimo į tokius prašymus), jei nėra jokios priežasties palikti ribotą prieigą. Norint tai padaryti, įvedus vardą ir el. pašto adresą (autentifikavimui), paspauskite mygtuką "Keisti į atvirą prieigą".</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name">Vardas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email">El. pašto adresas</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.name.error">Vardą privaloma įvesti</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.email.error">El. pašto adresą privaloma nurodyti</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestChangeStatusForm.changeToOpen">Keisti į atvirą prieigą</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseFalseForm.java -->
-	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.title">Request sent</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.trail">Request sent</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.head">Your request to change permissions has been sent</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para1">Your request has been sent to the administrator</message>
-	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para2">Thanks</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.title">Prašymas išsiųstas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.trail">Prašymas išsiųstas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.head">Jūsų prašymas pakeisti leidimo tipą išsiųstas</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para1">Jūsų prašymas išsiųstas administratoriui</message>
+	<message key="xmlui.ArtifactBrowser.ItemRequestStatusChanged.para2">Ačiū</message>
 
     <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestContactRequester.java -->
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.title">Document copy request</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.trail">Document copy request</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.head">Document copy request</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.para1">Initial communication with the requester, to let them know their request is being processed.</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.toEmail">To</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.subject">Subject</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.message">Message</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.mail">Send</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.back">Back</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.title">Dokumento kopijos prašymas</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.trail">Dokumento kopijos prašymas</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.head">Dokumento kopijos prašymas</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.para1">Pirminis susisiekimas su prašytoju, siekiant jį informuoti, kad prašymas yra nagrinėjamas.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.toEmail">Gavėjas</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.subject">Tema</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.message">Žinutė</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.mail">Siųsti</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactRequester.back">Grįžti</message>
 
     <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestContactAuthor.java -->
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.title">Document copy request</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.trail">Document copy request</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.head">Document copy request</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.para1">This is the text to be sent to the applicant (together with the document).</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.toEmail">To</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.subject">Subject</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.message">Message</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.mail">Send</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.back">Back</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.title">Dokumento kopijos prašymas</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.trail">Dokumento kopijos prašymas</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.head">Dokumento kopijos prašymas</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.para1">Čia yra tekstas, kuris bus siunčiamas prašytojui (kartu su dokumentu).</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.toEmail">Gavėjas</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.subject">Tema</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.message">Žinutė</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.mail">Siųsti</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestContactAuthor.back">Grįžti</message>
 
     <!-- org.dspace.app.xmlui.artifactbrowser.ItemRequestResponseSent.java -->
-    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.title">Your response has been sent.</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.trail">Your response has been sent.</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.head">Your response has been sent.</message>
-    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.para1">Your response has been sent.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.title">Jūsų prašymas išsiųstas.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.trail">Jūsų prašymas išsiųstas.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.head">Jūsų prašymas išsiųstas.</message>
+    <message key="xmlui.ArtifactBrowser.ItemRequestResponseSent.para1">Jūsų prašymas išsiųstas.</message>
 
 
 
@@ -513,12 +513,12 @@
 
 	<!-- General keys used by the EPerson aspect -->
 	<message key="xmlui.EPerson.trail_new_registration">Naujo vartotojo registracija</message>
-	<message key="xmlui.EPerson.trail_forgot_password">Forgot Password</message>
+	<message key="xmlui.EPerson.trail_forgot_password">Pamiršau slaptažodį</message>
 
 	<!-- org.dspace.app.xmlui.eperson.CannotRegister.java -->
-	<message key="xmlui.EPerson.CannotRegister.title">Registration unavailable</message>
-	<message key="xmlui.EPerson.CannotRegister.head">Registration unavailable</message>
-    <message key="xmlui.EPerson.CannotRegister.para1">The configuration of this repository does not allow registration in this context. Please contact the <a class="helpdesk-tolink">Help Desk</a> with questions or comments.</message>
+	<message key="xmlui.EPerson.CannotRegister.title">Registracija negalima</message>
+	<message key="xmlui.EPerson.CannotRegister.head">Registracija negalima</message>
+    <message key="xmlui.EPerson.CannotRegister.para1">Šioje situacijoje registracija negalima dėl saugyklos konfigūracijos. Prašome susisiekti per <a class="helpdesk-tolink">pagalbos langą</a> ir pateikti klausimus ar komentarus.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.EditProfile.java -->
 	<message key="xmlui.EPerson.EditProfile.title_update">Profilio redagavimas</message>
@@ -530,28 +530,28 @@
 	<message key="xmlui.EPerson.EditProfile.first_name">Vardas</message>
 	<message key="xmlui.EPerson.EditProfile.last_name">Pavardė</message>
 	<message key="xmlui.EPerson.EditProfile.telephone">Telefonas</message>
-	    <message key="xmlui.EPerson.EditProfile.language">Language</message>
-	<message key="xmlui.EPerson.EditProfile.last_login">Last Login</message>
-	<message key="xmlui.EPerson.EditProfile.auto_filled_in">This field is automatically filled in from authenticated session attributes.</message>
-	<message key="xmlui.EPerson.EditProfile.usermetadata.head">User Metadata.</message>
+	    <message key="xmlui.EPerson.EditProfile.language">Kalba</message>
+	<message key="xmlui.EPerson.EditProfile.last_login">Paskutinis prisijungimas</message>
+	<message key="xmlui.EPerson.EditProfile.auto_filled_in">Šis laukas yra automatiškai užpildomas naudojant autentifikuotos sesijos atributus.</message>
+	<message key="xmlui.EPerson.EditProfile.usermetadata.head">Vartotojo metaduomenys.</message>
 
-	<message key="xmlui.EPerson.EditProfile.language">Language</message>
+	<message key="xmlui.EPerson.EditProfile.language">Kalba</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions">Prenumerata</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions_help">Galite užsisakyti gauti el. žinutes, jei į kolekciją buvo patalpintas naujas elementas.</message>
-	<message key="xmlui.EPerson.EditProfile.signatures">Signed Licenses</message>
+	<message key="xmlui.EPerson.EditProfile.signatures">Pasirašytos licencijos</message>
 	<message key="xmlui.EPerson.EditProfile.email_subscriptions">Prenumeratos el. paštas</message>
 	<message key="xmlui.EPerson.EditProfile.select_collection">( Pasirinkite kolekciją )</message>
 	<message key="xmlui.EPerson.EditProfile.update_password_instructions">Galite pasikeisti slaptažodį, įvedę ta patį du kartus, bet nemažiau 6 simbolių</message>
-	<message key="xmlui.EPerson.EditProfile.create_password_instructions">Please enter a password in the box below, and confirm it by typing it again into the second box. It should be at least six characters long.</message>
+	<message key="xmlui.EPerson.EditProfile.create_password_instructions">Prašome įveskite slaptažodį žemiau esančiame laukelyje ir patvirtinkite jį dar kartą įvesdami antrame laukelyje. Slaptažodį turi sudaryti mažiausiai 6 simboliai.</message>
 	<message key="xmlui.EPerson.EditProfile.password">Slaptažodis</message>
 	<message key="xmlui.EPerson.EditProfile.confirm_password">Pakartokite slaptažodį</message>
 	<message key="xmlui.EPerson.EditProfile.submit_update">Baigti registraciją</message>
 	<message key="xmlui.EPerson.EditProfile.submit_create">Atnaujinit profilį</message>
-	<message key="xmlui.EPerson.EditProfile.error_required">This field is required</message>
+	<message key="xmlui.EPerson.EditProfile.error_required">Šis laukas yra privalomas</message>
 	<message key="xmlui.EPerson.EditProfile.error_invalid_password">Pasirinkite slaptažodį iš mažiausiai 6 simbolių</message>
 	<message key="xmlui.EPerson.EditProfile.error_unconfirmed_password">Pakartokite slaptažodį</message>
-	<message key="xmlui.EPerson.EditProfile.head_auth">Authorization groups you belong to</message>
-	<message key="xmlui.EPerson.EditProfile.invalid_item">Invalid item</message>
+	<message key="xmlui.EPerson.EditProfile.head_auth">Įgaliojimų grupės, kurioms Jūs priklausote</message>
+	<message key="xmlui.EPerson.EditProfile.invalid_item">Klaidingas įrašas</message>
 	<message key="xmlui.EPerson.EditProfile.head_identify">Identifikavimas</message>
 	<message key="xmlui.EPerson.EditProfile.head_security">Saugumas</message>
 
@@ -572,25 +572,25 @@
 	<message key="xmlui.EPerson.InvalidToken.title">Invalid token</message>
 	<message key="xmlui.EPerson.InvalidToken.trail">Invalid token</message>
 	<message key="xmlui.EPerson.InvalidToken.head">Invalid token</message>
-	<message key="xmlui.EPerson.InvalidToken.para1">The URL you provided is invalid. The URL may have been broken across multiple lines in your email client, like this:</message>
-	<message key="xmlui.EPerson.InvalidToken.para2">If so, copy and paste the entire URL directly into your browser's address bar, rather than simply clicking on the link. The address bar should then contain something like:</message>
+	<message key="xmlui.EPerson.InvalidToken.para1">Jūsų pateiktas URL adresas klaidingas. URL adresas gali neveikti dėl išskaidymo į kelias eilutes Jūsų el. pašto kliente, kaip matoma čia:</message>
+	<message key="xmlui.EPerson.InvalidToken.para2">Jei taip, nukopijuokite ir įklijuokite visą URL adresą tiesiai į naršyklės adreso juostą, o ne paprastai paspauskite ant nuorodos. Adreso juostos turinys galėtų būti panašus į šį:</message>
 
 	<!-- org.dspace.app.xmlui.eperson.Navigation.java -->
 	<message key="xmlui.EPerson.Navigation.my_account">Mano paskyra</message>
 	<message key="xmlui.EPerson.Navigation.profile">Profilis</message>
 	<message key="xmlui.EPerson.Navigation.logout">Atsijungti</message>
 	<message key="xmlui.EPerson.Navigation.login">Prisijungti</message>
-	<message key="xmlui.EPerson.Navigation.discojuice.login">Login</message>
+	<message key="xmlui.EPerson.Navigation.discojuice.login">Prisijungti</message>
 	<message key="xmlui.EPerson.Navigation.register">Registruotis</message>
-	<message key="xmlui.EPerson.Navigation.helpdesk">Help Desk</message>
+	<message key="xmlui.EPerson.Navigation.helpdesk">Pagalbos langas</message>
 
     <!-- org.dspace.app.xmlui.eperson.Navigation.java -->
-    <message key="xmlui.EPerson.Navigation.about-head">General Information</message>
+    <message key="xmlui.EPerson.Navigation.about-head">Bendra informacija</message>
     <message key="xmlui.EPerson.Navigation.deposit">Deposit</message>
-    <message key="xmlui.EPerson.Navigation.cite">Cite</message>
-    <message key="xmlui.EPerson.Navigation.item-lifecycle">Submission Lifecycle</message>
-    <message key="xmlui.EPerson.Navigation.faq">FAQ</message>
-    <message key="xmlui.EPerson.Navigation.about">About</message>
+    <message key="xmlui.EPerson.Navigation.cite">Cituoti</message>
+    <message key="xmlui.EPerson.Navigation.item-lifecycle">Paraiškų gyvavimo ciklas</message>
+    <message key="xmlui.EPerson.Navigation.faq">DUK</message>
+    <message key="xmlui.EPerson.Navigation.about">Apie</message>
 
 	<!-- org.dspace.app.xmlui.eperson.PasswordLogin.java -->
 	<message key="xmlui.EPerson.PasswordLogin.title">Prisijungti</message>
@@ -607,13 +607,13 @@
 	<message key="xmlui.EPerson.PasswordLogin.register_link">Registruotis</message>
 
     <!-- org.dspace.app.xmlui.eperson.WelcomeLogin.java -->
-    <message key="xmlui.EPerson.WelcomeLogin.title">Welcome message</message>
-    <message key="xmlui.EPerson.WelcomeLogin.trail">Welcome message</message>
-    <message key="xmlui.EPerson.WelcomeLogin.head1">Welcome to LINDAT/CLARIN Repository</message>
-    <message key="xmlui.EPerson.WelcomeLogin.head2">Privacy Statement</message>
-    <message key="xmlui.EPerson.WelcomeLogin.para1">The information released by your IdP (home organisation) is shown below.</message>
-    <message key="xmlui.EPerson.WelcomeLogin.warn1"><div class="bold text-error">We use only the required attributes as stated in <a href="http://lindat.mff.cuni.cz/privacypolicy.html" target="_blank" class="bold">http://lindat.mff.cuni.cz/privacypolicy.html</a>.<BR />However, we may log the attributes and keep them for a time period.</div></message>
-    <message key="xmlui.EPerson.WelcomeLogin.buttonok">Return to Home</message>
+    <message key="xmlui.EPerson.WelcomeLogin.title">Pasveikinimo žinutė</message>
+    <message key="xmlui.EPerson.WelcomeLogin.trail">Pasveikinimo žinutė</message>
+    <message key="xmlui.EPerson.WelcomeLogin.head1">Sveiki atvykę į LINDAT/CLARIN saugyklą</message>
+    <message key="xmlui.EPerson.WelcomeLogin.head2">Privatumo patvirtinimas</message>
+    <message key="xmlui.EPerson.WelcomeLogin.para1">Žemiau matoma informacija yra išleista Jūsų IdP (namų organizacijos).</message>
+    <message key="xmlui.EPerson.WelcomeLogin.warn1"><div class="bold text-error">Mes naudojame tik reikalaujamus atributus kaip išdėstyta <a href="http://lindat.mff.cuni.cz/privacypolicy.html" target="_blank" class="bold">http://lindat.mff.cuni.cz/privacypolicy.html</a>.<BR />Vis dėlto mes galime registruoti atributus ir saugoti juos tam tikrą laiko tarpą.</div></message>
+    <message key="xmlui.EPerson.WelcomeLogin.buttonok">Grįžti į pagrindinį puslapį</message>
 
 	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java -->
 	<message key="xmlui.EPerson.LDAPLogin.title">Prisijungti</message>
@@ -626,43 +626,43 @@
 	<message key="xmlui.EPerson.LDAPLogin.submit">Prisijungti</message>
 
 	<!-- org.dspace.app.xmlui.eperson.LoginChooser.java -->
-	<message key="xmlui.EPerson.LoginChooser.title">Choose a Login Method</message>
-	<message key="xmlui.EPerson.LoginChooser.trail">Choose Login</message>
-    <message key="xmlui.EPerson.LoginChooser.head1">Login Methods Available</message>
-	<message key="xmlui.EPerson.LoginChooser.para1">Log in via:</message>
-    <message key="xmlui.EPerson.LoginChooser.discojuiceComment">Use this to login with credentials of your "home" institution (e.g. eduGAIN institutions, members of eduID.cz, accounts at clarin.eu, ...). A window where you can select the institution should appear.</message>
-    <message key="xmlui.EPerson.LoginChooser.eduidComment">If you have an account at one of the Czech universities (e.g. CUNI, MUNI, ZCU, ...)</message>
-    <message key="xmlui.EPerson.LoginChooser.otherwiseComment">If you have registered manually use the following link </message>
-    <message key="org.dspace.authenticate.ShibAuthentication.title">Shibboleth Authentication - login from CUNI, MUNI, ZCU</message>
-    <message key="org.dspace.authenticate.ShibAuthenticationEduid.title">Shibboleth Authentication (login via eduID.cz federation - Czech users)</message>
-	<message key="org.dspace.eperson.LDAPAuthentication.title">LDAP Authentication</message>
-	<message key="org.dspace.eperson.PasswordAuthentication.title">Password Authentication</message>
-	<message key="org.dspace.eperson.X509Authentication.title">Web Certificate Authentication</message>
+	<message key="xmlui.EPerson.LoginChooser.title">Pasirinkite prisijungimo metodą</message>
+	<message key="xmlui.EPerson.LoginChooser.trail">Pasirinkite prisijungimą</message>
+    <message key="xmlui.EPerson.LoginChooser.head1">Galimi prisijungimo metodai</message>
+	<message key="xmlui.EPerson.LoginChooser.para1">Prisijungti per:</message>
+    <message key="xmlui.EPerson.LoginChooser.discojuiceComment">Naudokite šį prisijungimo būdą, jungdamiesi su "namų" institucijos įgaliojimais (pavyzdžiui, eduGAIN institucijų, eduID.cz nariai, turintys paskyras clarin.eu, ...). Tuoj turėtų pasirodyti langas, kuriame galėsite pasirinkti instituciją.</message>
+    <message key="xmlui.EPerson.LoginChooser.eduidComment">Jei turite paskyrą viename iš Čekijos universitetų (pavyzdžiui, CUNI, MUNI, ZCU, ...)</message>
+    <message key="xmlui.EPerson.LoginChooser.otherwiseComment">Jei registravotės savarankiškai, naudokite šią nuorodą </message>
+    <message key="org.dspace.authenticate.ShibAuthentication.title">Shibboleth autentifikacija - prisijunkite per CUNI, MUNI, ZCU</message>
+    <message key="org.dspace.authenticate.ShibAuthenticationEduid.title">Shibboleth autentifikacija (prisijunkite per eduID.cz federaciją - Čekijos vartotojams)</message>
+	<message key="org.dspace.eperson.LDAPAuthentication.title">LDAP autentifikacija</message>
+	<message key="org.dspace.eperson.PasswordAuthentication.title">Autentifikacija slaptažodžiu</message>
+	<message key="org.dspace.eperson.X509Authentication.title">Autentifikacija naudojant interneto sertifikatus</message>
 
 	<!-- org.dspace.app.xmlui.eperson.FailedAuthentication -->
-	<message key="xmlui.EPerson.FailedAuthentication.BadCreds">The credentials provided are invalid.</message>
-	<message key="xmlui.EPerson.FailedAuthentication.BadArgs">Unable to authenticate due to invalid arguments received.</message>
-	<message key="xmlui.EPerson.FailedAuthentication.NoSuchUser">A user was not found with the credentials provided.</message>
-	<message key="xmlui.EPerson.FailedAuthentication.title">Authentication Failed</message>
-    <message key="xmlui.EPerson.FailedAuthentication.trail">Failed Authentication</message>
-    <message key="xmlui.EPerson.FailedAuthentication.h1">Authentication Failed</message>
+	<message key="xmlui.EPerson.FailedAuthentication.BadCreds">Pateikti prisijungimo duomenys klaidingi.</message>
+	<message key="xmlui.EPerson.FailedAuthentication.BadArgs">Autentifikacija negalima dėl gautų klaidingų duomenų.</message>
+	<message key="xmlui.EPerson.FailedAuthentication.NoSuchUser">Vartotojo su pateiktais duomenimis nėra.</message>
+	<message key="xmlui.EPerson.FailedAuthentication.title">Autentifikacija nepavyko</message>
+    <message key="xmlui.EPerson.FailedAuthentication.trail">Nepavykusi autentifikacija</message>
+    <message key="xmlui.EPerson.FailedAuthentication.h1">Autentifikacija nepavyko</message>
 
 	<!-- Login xml files -->
-	<message key="xmlui.eperson.noAuthMethod.head">No Authentication Method Found</message>
-    <message key="xmlui.eperson.noAuthMethod.p1">No authentication method was found. Please contact the <a class="helpdesk-tolink">Help Desk</a>.</message>
-	<message key="xmlui.eperson.shibbLoginFailure.head">Shibboleth Login Failed</message>
-    <message key="xmlui.eperson.shibbLoginFailure.p1">Shibboleth authentication not available at this time. Please contact the <a class="helpdesk-tolink">Help Desk</a>.</message>
+	<message key="xmlui.eperson.noAuthMethod.head">Autentifikacijos metodų nerasta</message>
+    <message key="xmlui.eperson.noAuthMethod.p1">Autentifikacijos metodų nerasta. Prašome susisiekti per <a class="helpdesk-tolink">pagalbos langą</a>.</message>
+	<message key="xmlui.eperson.shibbLoginFailure.head">Shibboleth prisijungimas nepavyko</message>
+    <message key="xmlui.eperson.shibbLoginFailure.p1">Shibboleth autentifikacijos metodas šiuo metu negalimas. Prašome susisiekti per <a class="helpdesk-tolink">pagalbos langą</a>.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.ProfileUpdated.java -->
-	<message key="xmlui.EPerson.ProfileUpdated.title">Profile updated</message>
-	<message key="xmlui.EPerson.ProfileUpdated.trail">Update profile</message>
-	<message key="xmlui.EPerson.ProfileUpdated.head">Profile updated</message>
-	<message key="xmlui.EPerson.ProfileUpdated.para1">Your profile information has been updated.</message>
+	<message key="xmlui.EPerson.ProfileUpdated.title">Profilis atnaujintas</message>
+	<message key="xmlui.EPerson.ProfileUpdated.trail">Atnaujinti profilį</message>
+	<message key="xmlui.EPerson.ProfileUpdated.head">Profilis atnaujintas</message>
+	<message key="xmlui.EPerson.ProfileUpdated.para1">Jūsų profilio informacija atnaujinta.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.RegistrationFinished.java -->
-	<message key="xmlui.EPerson.RegistrationFinished.title">Registration finished</message>
-	<message key="xmlui.EPerson.RegistrationFinished.head">Registration Finished</message>
-    <message key="xmlui.EPerson.RegistrationFinished.para1">You're now registered.  You can subscribe to collections to receive email updates about new items.</message>
+	<message key="xmlui.EPerson.RegistrationFinished.title">Registracija baigta</message>
+	<message key="xmlui.EPerson.RegistrationFinished.head">Registracija baigta</message>
+    <message key="xmlui.EPerson.RegistrationFinished.para1">Dabar Jūs esate prisiregistravęs. Jūs galite prenumeruoti rinkinius ir gauti el. pašto žinutes apie naujus įrašus.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.ResetPassword.java -->
 	<message key="xmlui.EPerson.ResetPassword.title">Atnaujinti slaptažodį</message>
@@ -686,21 +686,21 @@
 
 	<!-- org.dspace.app.xmlui.eperson.StartRegistration.java -->
 	<message key="xmlui.EPerson.StartRegistration.title">Naujo vartotojo registracija</message>
-	<message key="xmlui.EPerson.StartRegistration.head1">Email already in use</message>
-	<message key="xmlui.EPerson.StartRegistration.para1">That email address is already in use by another account. If you want to reset the password for this account, click the reset password button below.</message>
-	<message key="xmlui.EPerson.StartRegistration.reset_password_for">Reset password for</message>
-	<message key="xmlui.EPerson.StartRegistration.submit_reset">Reset password</message>
+	<message key="xmlui.EPerson.StartRegistration.head1">Šis el. pašto adresas jau yra naudojamas</message>
+	<message key="xmlui.EPerson.StartRegistration.para1">Šis el. pašto adresas jau yra naudojamas kitoje paskyroje. Jei norite iš naujo nustatyti šios paskyros slaptažodį, paspauskite žemiau esantį slaptažodžio atnaujinimo mygtuką.</message>
+	<message key="xmlui.EPerson.StartRegistration.reset_password_for">Atnaujinti slaptažodį</message>
+	<message key="xmlui.EPerson.StartRegistration.submit_reset">Atnaujinti slaptažodį</message>
 	<message key="xmlui.EPerson.StartRegistration.head2">Naujo vartotojo registracija</message>
 	<message key="xmlui.EPerson.StartRegistration.para2">Jeigu pirm&#261; kart&#261; bandote prisijungti prie saugyklos, pra&#353;ome &#303;vesti savo el. pa&#353;to adres&#261; ir spausti mygtuk&#261; "Registruotis".</message>
 	<message key="xmlui.EPerson.StartRegistration.email_address">El. pa&#353;to adresas</message>
 	<message key="xmlui.EPerson.StartRegistration.email_address_help">&#352;is adresas bus patikrintas ir naudojamas kaip prisijungimo vardas</message>
-	<message key="xmlui.EPerson.StartRegistration.error_bad_email">Unable to send email to this address.</message>
+	<message key="xmlui.EPerson.StartRegistration.error_bad_email">Negalime išsiųsti žinutės į šį el. pašto adresą.</message>
 	<message key="xmlui.EPerson.StartRegistration.submit_register">Registruotis</message>
 
 	<!-- org.dspace.app.xmlui.eperson.VerifyEmail.java -->
-	<message key="xmlui.EPerson.VerifyEmail.title">Verification email sent</message>
-	<message key="xmlui.EPerson.VerifyEmail.head">Verification email sent</message>
-	<message key="xmlui.EPerson.VerifyEmail.para">An email has been sent to {0} containing a special URL and further instructions.</message>
+	<message key="xmlui.EPerson.VerifyEmail.title">Patvirtinimo el. laiškas išsiųstas</message>
+	<message key="xmlui.EPerson.VerifyEmail.head">Patvirtinimo el. laiškas išsiųstas</message>
+	<message key="xmlui.EPerson.VerifyEmail.para">Patvirtinimo el. laiškas išsiųstas į {0}, kuriame yra specialus URL adresas ir tolimesnės instrukcijos.</message>
 
 
 
@@ -749,26 +749,26 @@
 	<message key="xmlui.Submission.Submissions.trail">&#x12E;k&#x117;limai</message>
 	<message key="xmlui.Submission.Submissions.head">&#x12E;k&#x117;limai ir b&#x16B;sen&#x173; u&#x17E;duotys</message>
 	<message key="xmlui.Submission.Submissions.untitled"><i>Nepavadintas</i></message>
-	<message key="xmlui.Submission.Submissions.email">email: </message>
+	<message key="xmlui.Submission.Submissions.email">el. paštas: </message>
 	<!-- Same transformer, workflow section -->
 	<message key="xmlui.Submission.Submissions.workflow_head1">B&#x16B;sen&#x173; u&#x17E;duotys</message>
-	<message key="xmlui.Submission.Submissions.workflow_info1">These tasks are items that are awaiting approval before they are added to the repository. There are two task queues, one for tasks which you have chosen to accept and another for tasks which have not been taken by anyone yet.</message>
-	<message key="xmlui.Submission.Submissions.workflow_head2">Tasks you own</message>
+	<message key="xmlui.Submission.Submissions.workflow_info1">Šios užduotys yra įrašai, laukiantys patvirtinimo prieš įkėlimą į saugyklą. Yra dvi užduočių eilės, viena skirta užduotims, kurias Jūs patvirtinote, kita tokioms, kurios yra niekieno nepaimtos.</message>
+	<message key="xmlui.Submission.Submissions.workflow_head2">Jūsų turimos užduotys</message>
 	<message key="xmlui.Submission.Submissions.workflow_column1"></message>
 	<message key="xmlui.Submission.Submissions.workflow_column2">U&#x17E;duotis</message>
 	<message key="xmlui.Submission.Submissions.workflow_column3">&#x12E;ra&#x161;as</message>
 	<message key="xmlui.Submission.Submissions.workflow_column4">Rinkinys</message>
 	<message key="xmlui.Submission.Submissions.workflow_column5">Pateik&#x117;jas</message>
-	<message key="xmlui.Submission.Submissions.workflow_submit_return">Return selected tasks to the pool</message>
-	<message key="xmlui.Submission.Submissions.workflow_info2">No tasks are assigned to you</message>
-	<message key="xmlui.Submission.Submissions.workflow_head3">Tasks in the pool</message>
-	<message key="xmlui.Submission.Submissions.workflow_submit_take">Take selected tasks</message>
-	<message key="xmlui.Submission.Submissions.workflow_info3">No tasks are in the pool</message>
+	<message key="xmlui.Submission.Submissions.workflow_submit_return">Grąžinti psirinktas užduotis į užduočių sąrašą</message>
+	<message key="xmlui.Submission.Submissions.workflow_info2">Jums nėra priskirta jokių užduočių</message>
+	<message key="xmlui.Submission.Submissions.workflow_head3">Užduočių sąrašas</message>
+	<message key="xmlui.Submission.Submissions.workflow_submit_take">Prisiimkite pažymėtas užduotis</message>
+	<message key="xmlui.Submission.Submissions.workflow_info3">Užduočių sąrašas tuščias</message>
 	<!-- Same transformer, submissions section -->
 	<message key="xmlui.Submission.Submissions.submit_head1">&#x12E;k&#x117;limai</message>
 	<message key="xmlui.Submission.Submissions.submit_info1a">Galite </message>
 	<message key="xmlui.Submission.Submissions.submit_info1b">&#x12F;kelti nauj&#x105; &#x12F;ra&#x161;&#x105;.</message>
-	<message key="xmlui.Submission.Submissions.submit_info1c">The submission process includes describing the item and uploading the file(s) comprising it. Each community or collection may set its own submission policy.</message>
+	<message key="xmlui.Submission.Submissions.submit_info1c">Įkėlimo procesas susideda iš bylos(-ų) įkėlimo ir aprašymo. Kiekviena kolekcija ar rinkinys gali turėti atskirą įkėlimo politiką.</message>
 	<message key="xmlui.Submission.Submissions.submit_head2">Nebaigti &#x12F;k&#x117;limai</message>
 	<message key="xmlui.Submission.Submissions.submit_info2a">Tai yra neu&#x17E;baigti &#x12F;k&#x117;limai. J&#x16B;s taip pat galite </message>
 	<message key="xmlui.Submission.Submissions.submit_info2b">įkelti naują įrašą</message>
@@ -779,7 +779,7 @@
 	<message key="xmlui.Submission.Submissions.submit_column4">Pateik&#x117;jas</message>
 	<message key="xmlui.Submission.Submissions.submit_head3">Autoryst&#x117;:</message>
 	<message key="xmlui.Submission.Submissions.submit_info3">Neliko nebaigt&#x173; pateikim&#x173;.</message>
-	<message key="xmlui.Submission.Submissions.submit_head4">Supervising:</message>
+	<message key="xmlui.Submission.Submissions.submit_head4">Prižiūrėjimas:</message>
 	<message key="xmlui.Submission.Submissions.submit_submit_remove">&#x160;alinti pa&#x17E;ym&#x117;tus pateikimus</message>
 	<!-- Same transformer, inprogress section -->
 	<message key="xmlui.Submission.Submissions.progress_head1">Per&#x17E;i&#x16B;rimi &#x12F;k&#x117;limai</message>
@@ -789,36 +789,36 @@
 	<message key="xmlui.Submission.Submissions.progress_column3">B&#x16B;sena</message>
 	<!-- Same transformer, workflow status -->
 	<message key="xmlui.Submission.Submissions.status_0">Pateikta</message>
-	<message key="xmlui.Submission.Submissions.status_1">Awaiting reviewer's attention</message>
-	<message key="xmlui.Submission.Submissions.status_2">Submission being reviewed</message>
-	<message key="xmlui.Submission.Submissions.status_3">Awaiting editor's attention</message>
-	<message key="xmlui.Submission.Submissions.status_4">Submission being edited</message>
-	<message key="xmlui.Submission.Submissions.status_5">Awaiting final editor's attention</message>
-	<message key="xmlui.Submission.Submissions.status_6">Submission being edited</message>
-	<message key="xmlui.Submission.Submissions.status_7">Submission has been archived</message>
-	<message key="xmlui.Submission.Submissions.status_unknown">Unknown state</message>
+	<message key="xmlui.Submission.Submissions.status_1">Laukiama recenzento</message>
+	<message key="xmlui.Submission.Submissions.status_2">Įkėlimas peržiūrimas</message>
+	<message key="xmlui.Submission.Submissions.status_3">Laukiama redaktoriaus</message>
+	<message key="xmlui.Submission.Submissions.status_4">Įkėlimas redaguojamas</message>
+	<message key="xmlui.Submission.Submissions.status_5">Laukiama galutinės redaktoriaus peržiūros</message>
+	<message key="xmlui.Submission.Submissions.status_6">Įkėlimas redaguojamas</message>
+	<message key="xmlui.Submission.Submissions.status_7">Įkėlimas suarchyvuotas</message>
+	<message key="xmlui.Submission.Submissions.status_unknown">Nežinoma būsena</message>
 	<!-- Same transformer, completed submissions section -->
 	<message key="xmlui.Submission.Submissions.completed.head">&#x12E;k&#x117;lim&#x173; archyvas</message>
 	<message key="xmlui.Submission.Submissions.completed.info">Tai yra j&#x16B;s&#x173; &#x12F;k&#x117;limai, kurie buvo priimti &#x12F; ropozitorium&#x105;.</message>
 	<message key="xmlui.Submission.Submissions.completed.column1">Pri&#x117;mimo data</message>
 	<message key="xmlui.Submission.Submissions.completed.column2">Pavadinimas</message>
 	<message key="xmlui.Submission.Submissions.completed.column3">Kolekcija</message>
-	<message key="xmlui.Submission.Submissions.completed_submit_add_new_version">Add new version</message>
-	<message key="xmlui.Submission.Submissions.completed.limit">Only the first few of your archived submissions are listed above. </message>
-	<message key="xmlui.Submission.Submissions.completed.displayall">Display all my archived submissions.</message>
+	<message key="xmlui.Submission.Submissions.completed_submit_add_new_version">Pridėti naują versiją</message>
+	<message key="xmlui.Submission.Submissions.completed.limit">Tik keli pirmi Jūsų suarchyvuoti įkėlimai matomi aukščiau esančiame sąraše. </message>
+	<message key="xmlui.Submission.Submissions.completed.displayall">Rodyti visus mano suarchyvuotus įkėlimus.</message>
 
 	<!-- submission progress bar messages -->
-	<message key="xmlui.Submission.submit.progressbar.initial-questions">Initial Questions</message>
-    <message key="xmlui.Submission.submit.progressbar.describe">Basic Info</message>
-    <message key="xmlui.Submission.submit.progressbar.describe2">Who's involved</message>
-    <message key="xmlui.Submission.submit.progressbar.describe3">Describe</message>
-    <message key="xmlui.Submission.submit.progressbar.upload">Upload</message>
-    <message key="xmlui.Submission.submit.progressbar.additional">Note</message>
-    <message key="xmlui.Submission.submit.progressbar.additional2">Note</message>
-	<message key="xmlui.Submission.submit.progressbar.verify">Review</message>
-	<message key="xmlui.Submission.submit.progressbar.creative-commons">Creative Commons</message>
-	<message key="xmlui.Submission.submit.progressbar.CClicense">CC licenzija</message>
-	<message key="xmlui.Submission.submit.progressbar.license">Licenzija</message>
+	<message key="xmlui.Submission.submit.progressbar.initial-questions">Pradiniai klausimai</message>
+    <message key="xmlui.Submission.submit.progressbar.describe">Pagrindinė informacija</message>
+    <message key="xmlui.Submission.submit.progressbar.describe2">Įtraukti asmenys</message>
+    <message key="xmlui.Submission.submit.progressbar.describe3">Aprašyti</message>
+    <message key="xmlui.Submission.submit.progressbar.upload">Įkelti</message>
+    <message key="xmlui.Submission.submit.progressbar.additional">Pastaba</message>
+    <message key="xmlui.Submission.submit.progressbar.additional2">Pastaba</message>
+	<message key="xmlui.Submission.submit.progressbar.verify">Recenzija</message>
+	<message key="xmlui.Submission.submit.progressbar.creative-commons">"Creative Commons"</message>
+	<message key="xmlui.Submission.submit.progressbar.CClicense">CC licencija</message>
+	<message key="xmlui.Submission.submit.progressbar.license">Licencija</message>
 	<message key="xmlui.Submission.submit.progressbar.complete">Baigta</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.ResumeStep -->
@@ -829,176 +829,176 @@
 	<message key="xmlui.Submission.submit.SelectCollection.collection">Rinkinys</message>
 	<message key="xmlui.Submission.submit.SelectCollection.collection_help">Pasirinkite rinkinį, į kurį norite įkelti įrašą.</message>
 	<message key="xmlui.Submission.submit.SelectCollection.collection_default">Pasirinkti rinkinį...</message>
-	<message key="xmlui.Submission.submit.SelectCollection.default_message">Please try to fill in all necessary details. The more metadata you can provide us, the better we can keep record of your submission.</message>
+	<message key="xmlui.Submission.submit.SelectCollection.default_message">Prašome užpildyti visas būtinas detales. Kuo daugiau metaduomenų pateiksite, tuo geriau galėsime užregistruoti Jūsų įkėlimą.</message>
 	<!--  <UFAL> -->
 	<!-- cz.cuni.mff.ufal.dspace.app.xmlui.aspect.submission.submit.SelectCollection -->
-	<message key="xmlui.Submission.submit.SelectCollection.select_collection_head">Select a collection</message>
-	<message key="xmlui.Submission.submit.SelectCollection.select_collection_help">Please select appropriate collection according to the nature of the submitted data</message>
-	<message key="xmlui.Submission.submit.SelectCollection.select_community_head">Select a community</message>
-	<message key="xmlui.Submission.submit.SelectCollection.select_community_help">Please choose the community that fits you the best.</message>
-	<message key="xmlui.Submission.submit.SelectCollection.single_collection_help">You are authorized to submit items to only a single collection, please click on Next to continue.</message>
-	<message key="xmlui.Submission.submit.SelectCollection.community">Community</message>
+	<message key="xmlui.Submission.submit.SelectCollection.select_collection_head">Pasirinkite rinkinį</message>
+	<message key="xmlui.Submission.submit.SelectCollection.select_collection_help">Prašome pasirinkti tinkamą rinkinį, atsižvelgiant į pateikimo datos pobūdį</message>
+	<message key="xmlui.Submission.submit.SelectCollection.select_community_head">Pasirinkti kolekciją</message>
+	<message key="xmlui.Submission.submit.SelectCollection.select_community_help">Prašome pasirinkti Jums geriausiai tinkančią kolekciją.</message>
+	<message key="xmlui.Submission.submit.SelectCollection.single_collection_help">Jūs galite įkelti įrašus tik į vieną rinkinį, prašome spausti Toliau norėdami tęsti.</message>
+	<message key="xmlui.Submission.submit.SelectCollection.community">Kolekcija</message>
 	<!-- </UFAL> -->
 
 	<!-- org.dspace.app.xmlui.Submission.submit.SaveOrRemoveStep -->
-	<message key="xmlui.Submission.submit.SaveOrRemoveStep.head">Save or cancel your submission?</message>
-	<message key="xmlui.Submission.submit.SaveOrRemoveStep.info1">Do you want the submission removed, or do you want to carry on working on it later?  You may return to the submission process if you clicked Exit by accident.</message>
-	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_back">Oops, continue submission</message>
-	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_save">Save it, I'll work on it later</message>
-	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_remove">Remove the submission</message>
+	<message key="xmlui.Submission.submit.SaveOrRemoveStep.head">Išsaugoti ar atšaukti Jūsų įkėlimą?</message>
+	<message key="xmlui.Submission.submit.SaveOrRemoveStep.info1">Ar norite panaikinti įkėlimą, ar tęsti su juo darbą vėliau? Jūs galėsite grįžti prie įkėlimo proceso vėliau jei netyčia paspausite išeiti.</message>
+	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_back">Ups, Tęsti įkėlimą</message>
+	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_save">Išsaugoti, dirbsiu vėliau</message>
+	<message key="xmlui.Submission.submit.SaveOrRemoveStep.submit_remove">Panaikinti įkėlimą</message>
 
 
 	<!-- org.dspace.app.xmlui.Submission.submit.InitialQuestionsStep -->
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.head">Initial Questions</message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.important_note">Important Note: </message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.and"> and </message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.head">Pradiniai klausimai</message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.important_note">Svarbi pastaba: </message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.and"> ir </message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.separator">, </message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.open_set"> (</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.close_set">)</message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles">Multiple titles</message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_help">The item has more than one title, <i>e.g. a translated title</i></message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_note">If the checkbox above is unchecked then the following title(s) will be removed from the item: </message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before">Published</message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before_help">The item has been published or publicly distributed before</message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before_note">If the checkbox above is unchecked then the following will be removed from the item:</message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.date_issued">Date Issued</message>
-	<message key="xmlui.Submission.submit.InitialQuestionsStep.citation">Citation</message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles">Keli pavadinimai</message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_help">Įrašas turi daugiau nei vieną pavadinimą, <i>pavyzdžiui, išverstą pavadinimą</i></message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.multiple_titles_note">Jei langelis aukščiau nepažymėtas, tada sekantis(-ys) pavadinimas(-ai) bus iš įrašo panaikinti: </message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before">Publikuotas</message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before_help">Įrašas buvo publikuotas arba viešai platintas anksčiau</message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.published_before_note">Jei langelis aukščiau nepažymėtas, tada sekanti informacija bus iš įrašo panaikinta:</message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.date_issued">Problemos iškėlimo data</message>
+	<message key="xmlui.Submission.submit.InitialQuestionsStep.citation">Citavimas</message>
 	<message key="xmlui.Submission.submit.InitialQuestionsStep.publisher">Leidėjas</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.DescribeStep -->
-    <message key="xmlui.Submission.submit.DescribeStep.head">Submission Info</message>
-    <message key="xmlui.Submission.submit.DescribeStep.head2">People and organizations involved</message>
-    <message key="xmlui.Submission.submit.DescribeStep.head3">Resource details</message>
-	<message key="xmlui.Submission.submit.DescribeStep.unknown_field">Error: Unknown field type</message>
+    <message key="xmlui.Submission.submit.DescribeStep.head">Įkėlimo informacija</message>
+    <message key="xmlui.Submission.submit.DescribeStep.head2">Įtraukti asmenys ir organizacijos</message>
+    <message key="xmlui.Submission.submit.DescribeStep.head3">Ištekliaus detalės</message>
+	<message key="xmlui.Submission.submit.DescribeStep.unknown_field">Klaida: nežinomas laukelio tipas</message>
 	<message key="xmlui.Submission.submit.DescribeStep.required_field">Privalomas laukas</message>
 	<message key="xmlui.Submission.submit.DescribeStep.last_name_help">Pavardė</message>
 	<message key="xmlui.Submission.submit.DescribeStep.first_name_help">Vardas</message>
 	<message key="xmlui.Submission.submit.DescribeStep.year">Metai</message>
 	<message key="xmlui.Submission.submit.DescribeStep.month">Menuo</message>
 	<message key="xmlui.Submission.submit.DescribeStep.day">Diena</message>
-	<message key="xmlui.Submission.submit.DescribeStep.series_name">Series Name</message>
-	<message key="xmlui.Submission.submit.DescribeStep.report_no">Report or paper No.</message>
-	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.link">Subject Categories</message>
-	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.title">Subject Categories</message>
-	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.label">Filter subjects</message>
-	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.button">Filter</message>
-	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.loading">Please wait while the controlled vocabulary is loading.</message>
-	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.error">There was an issue when loading the controlled vocabulary, please try again later.</message>
+	<message key="xmlui.Submission.submit.DescribeStep.series_name">Serijos pavadinimas</message>
+	<message key="xmlui.Submission.submit.DescribeStep.report_no">Pranešimas arba straipsnis Nr.</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.link">Temos kategorija</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.title">Temos kategorija</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.label">Filtruoti tematiką</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.filter.button">Filtruoti</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.loading">Prašome palaukti kol kraunamas tikrinimo žodynas.</message>
+	<message key="xmlui.Submission.submit.DescribeStep.controlledvocabulary.error">Iškilo problema kraunant tikrinimo žodyną, prašome bandyti vėliau.</message>
 
     <!-- org.dspace.app.xmlui.Submission.submit.UFALLicenseStep -->
     <message key="xmlui.Submission.submit.NA">N/A</message>
 
     <!-- org.dspace.app.xmlui.Submission.submit.ExtraMetadataStep -->
-    <message key="xmlui.Submission.submit.ExtraMetadataStep.head">Additional Metadata for this Item</message>
-    <message key="xmlui.Submission.submit.ExtraMetadataStep.deleteRepeatabaleComponent">Remove selected</message>
-    <message key="xmlui.Submission.submit.ExtraMetadataStep.addNewRepeatabaleComponent">Add component</message>
+    <message key="xmlui.Submission.submit.ExtraMetadataStep.head">Papildomi metaduomenys šiam įrašui</message>
+    <message key="xmlui.Submission.submit.ExtraMetadataStep.deleteRepeatabaleComponent">Pašalinti pasirinktą</message>
+    <message key="xmlui.Submission.submit.ExtraMetadataStep.addNewRepeatabaleComponent">Pridėti komponentą</message>
 
     <!-- cz.cuni.mff.ufal.HandleRemoved -->
     <message key="xmlui.ufal.HandleRemoved.title">This Handle was removed</message>
     <message key="xmlui.ufal.HandleRemoved.head">This Handle was removed</message>
-    <message key="xmlui.ufal.HandleRemoved.trail_item">Item</message>
+    <message key="xmlui.ufal.HandleRemoved.trail_item">Įrašas</message>
     <message key="xmlui.ufal.HandleRemoved.trail_handle_removed">Handle Removed</message>
-    <message key="xmlui.ufal.HandleRemoved.message">This item no longer exists. If you think it should exist contact our <a class="helpdesk-tolink">Help Desk</a>.</message>
+    <message key="xmlui.ufal.HandleRemoved.message">Šis įrašas daugiau neegzistuoja. Jei manote, kad jis turėtų egzistuoti, susisiekite per <a class="helpdesk-tolink">pagalbos langą</a>.</message>
 
     <!-- org.dspace.app.xmlui.Submission.submit.UFALLicenseStep -->
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define.head">Define new licence</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.delete.head">Delete your licence</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.license_detail">See more details for the licenses</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.no_file_uploaded">No file has been uploaded, please skip this step.</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define.name">License name</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define.url">License definition URL</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define.confirmation">License requires confirmation</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define.no_confirmation">None</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define.once_confirmation">Only once</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define.always_confirmation">Always</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define.noadd">Cancel license</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define.add">Store license</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define">Define new license</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.delete">Delete one of your license(s)</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.notselect_error">No license was selected. Please, select one of the items or use guided selection.</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.license_select_help">Specify the license under which we will distribute your work.</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.license_select_delete_help">Select license to delete.</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.license_select">License</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define.nourl">No url specified.</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define.noname">No license name specified.</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define.error">There was a problem while adding your license. Probably, you do not have appropriate access rights. Please, go back and/or contact the administrator.</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.delete.error">There was a problem while deleting a license. Probably, you do not have appropriate access rights. Please, go back and/or contact the administrator.</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.define.empty_label">Empty label</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.license_not_supported">The selected license is not supported at the moment. Please follow the procedure described under section "None of these licenses suits your needs".</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.review_no_file">No file was uploaded in the upload step. There is no restriction on the metadata.</message>
-    <message key="xmlui.Submission.submit.UFALLicenseStep.review_license_error">License specified by you was not found in the database. This is most likely due to an error please contact administrators.</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define.head">Apibrėžkite naują licenciją</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.delete.head">Ištrinti Jūsų licenciją</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.license_detail">Žiūrėti daugiau apie licencijas</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.no_file_uploaded">Jokia byla nebuvo įkelta, prašome praleisti šį žingsnį.</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define.name">Licencijos pavadinimas</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define.url">Licencijos aprašymo URL adresas</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define.confirmation">Reikalaujama licencijos patvirtinimo</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define.no_confirmation">Niekada</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define.once_confirmation">Tik vieną kartą</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define.always_confirmation">Visada</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define.noadd">Atšaukti licenciją</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define.add">Išsaugoti licenciją</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define">Apibrėžti naują licenciją</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.delete">Ištrinti vieną iš Jūsų licencijų(-os)</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.notselect_error">Nepasirinkta jokia licencija. Prašome pasirinkti vieną iš įrašų arba naudotis pasirikimo vadovu.</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.license_select_help">Detalizuokite licenciją, pagal kurią mes platinsime Jūsų darbą.</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.license_select_delete_help">Pasirinkite licenciją ištrynimui.</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.license_select">Licencija</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define.nourl">Joks url adresas nenurodytas.</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define.noname">Licencijos pavadinimas nenurodytas.</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define.error">Iškilo problema pridedant Jūsų licenciją. Tikriausiai Jūs neturite tam reikiamų prieigos teisių. Prašome grįžti atgal ir/arba susisiekti su administratoriumi.</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.delete.error">Iškilo problema ištrinant Jūsų licenciją. Tikriausiai Jūs neturite tam reikiamų prieigos teisių. Prašome grįžti atgal ir/arba susisiekti su administratoriumi.</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.define.empty_label">Tuščias laukas</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.license_not_supported">Pasirinkta licencija šiuo mteu nepalaikoma. Prašome sekti procedūrą, aprašytą skyriuje "Nei viena iš licencijų neatitinka Jūsų poreikių".</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.review_no_file">Jokia byla nebuvo įkelta įkėlimo žingsnio metu. Nėra jokių apribojimų metaduomenims.</message>
+    <message key="xmlui.Submission.submit.UFALLicenseStep.review_license_error">Jūsų nurodyta licencija nerasta duomenų bazėje. Labiausiai tikėtina, kad tai įvyko dėl klaidos, prašome susisiekti su administratoriumi.</message>
 
 
     <!-- cz.cuni.mff.ufal.UFALLicenceAgreement -->
-    <message key="xmlui.ufal.UFALLicenceAgreement.title">Licence Agreement</message>
-    <message key="xmlui.ufal.UFALLicenceAgreement.head">Licence Agreement</message>
-    <message key="xmlui.ufal.UFALLicenceAgreement.trail_item">Item</message>
-    <message key="xmlui.ufal.UFALLicenceAgreement.trail_license_agreement">Licence Agreement</message>
-    <message key="xmlui.ufal.UFALLicenceAgreement.agree_message">The requested content is distributed under one or more licence(s). You have to agree to the licence(s) below before you can obtain the content. Please, read the licence(s) by clicking on the button(s) carefully.</message>
-    <message key="xmlui.ufal.UFALLicenceAgreement.functionality_blocked">UFALLicenceAgreement functionality has been blocked at configuration file.</message>
-    <message key="xmlui.ufal.UFALLicenceAgreement.signer_message">By clicking on the button below I, SIGNER with the above ID, agree to the <b>LICENCE(s)</b> restricting the usage of requested BITSTREAM(s).</message>
+    <message key="xmlui.ufal.UFALLicenceAgreement.title">Licencijos sutartis</message>
+    <message key="xmlui.ufal.UFALLicenceAgreement.head">Licencijos sutartis</message>
+    <message key="xmlui.ufal.UFALLicenceAgreement.trail_item">Įrašas</message>
+    <message key="xmlui.ufal.UFALLicenceAgreement.trail_license_agreement">Licencijos sutartis</message>
+    <message key="xmlui.ufal.UFALLicenceAgreement.agree_message">Prašomas turinys yra platinamas pagal vieną ar daugiau licencijų. Jūs turite sutikti su licencijos(-ų) sąlygomis norėdami gauti prašomą turinį. Atidžiai perskaitykite licenciją(-as), paspausdami ant mygtukų.</message>
+    <message key="xmlui.ufal.UFALLicenceAgreement.functionality_blocked">UFALLicenceAgreement licencijos funkcionalumas užblokuotas konfigūracijos faile.</message>
+    <message key="xmlui.ufal.UFALLicenceAgreement.signer_message">AŠ, PASIRAŠANTYSIS ASMUO su aukščiau esančiu ID, paspausdamas žemiau esantį mygtuką, sutinku su <b>LICENCIJOS(-ų) SĄLYGOMIS</b>, apribojančiomis prašomo RESURSO(-ų) naudojimą.</message>
 
-    <message key="xmlui.ufal.UFALLicenceAgreement.signer_head">The information below identifies you, the SIGNER. If the information is incorrect, please contact our <a class="helpdesk-tolink">Help Desk</a>. This information will be stored as part of the electronic signatures.</message>
-    <message key="xmlui.ufal.UFALLicenceAgreement.signer_agree">I AGREE</message>
+    <message key="xmlui.ufal.UFALLicenceAgreement.signer_head">Žemiau esanti informacija identifikuoja Jus, PASIRAŠANTYJĮ ASMENĮ. Jei informacija klaidinga, prašome susisiekti per <a class="helpdesk-tolink">pagalbos langą</a>. Ši informacija bus saugoma kaip elektroninių parašų dalis.</message>
+    <message key="xmlui.ufal.UFALLicenceAgreement.signer_agree">AŠ SUTINKU</message>
 
     <!-- cz.cuni.mff.ufal.UFALLicenceAgreementAgreed -->
-    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.title">Repository Licence Agreement</message>
-    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.head">Repository Licence Agreed</message>
-    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.trail_item">Item</message>
-    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.trail_license_agreed">Licence Agreement</message>
-    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.agree_message">If you want to see the content you have to agree the licence(s) below:</message>
-    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.functionality_blocked">UFALLicenceAgreement functionality has been blocked at configuration file.</message>
-    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.signer_message">By following this link I, SIGNER with above ID, agree with the <b>LICENSE</b> restricting the usage of the this BITSTREAM.</message>
-    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.user_login_error">User not logged in: UFALLicenceAgreement cannot continue!</message>
-    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.successful_signed_message">{0} License for bitstream {1} successfully signed by {2}.</message>
-	<message key="xmlui.ufal.UFALLicenceAgreementAgreed.continue_message">If your download doesn't start automatically, please click here.</message>
-	<message key="xmlui.ufal.UFALLicenceAgreementAgreed.technical_problem">A technical problem was encountered. Please contact the Help Desk</message>
+    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.title">Saugyklos licencijos sutartis</message>
+    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.head">Saugyklos licencijos sutartis</message>
+    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.trail_item">Įrašas</message>
+    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.trail_license_agreed">Licencijos sutartis</message>
+    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.agree_message">Jei norite žemiau pamatyti licencijos(-ų) turinį, su kuriuo turite sutikti:</message>
+    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.functionality_blocked">UFALLicenceAgreement licencijos funkcionalumas užblokuotas konfigūracijos faile.</message>
+    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.signer_message">Paspausdamas šią nuorodą AŠ, PASIRAŠANTYSIS ASMUO su aukščiau esančiu ID, sutinku su <b>LICENCIJOS SĄLYGOMIS</b> apribojančiomis prašomo RESURSO naudojimą.</message>
+    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.user_login_error">Vartotojas neprisijungęs: UFALLicenceAgreement licencijos sutikimas negali būti tęsiamas!</message>
+    <message key="xmlui.ufal.UFALLicenceAgreementAgreed.successful_signed_message">{0} Licencija parsisiuntimui {1} sėkmingai pasirašyta {2}.</message>
+	<message key="xmlui.ufal.UFALLicenceAgreementAgreed.continue_message">Jei Jūsų parsisiuntimas neprasideda automatiškai, prašome spausti čia.</message>
+	<message key="xmlui.ufal.UFALLicenceAgreementAgreed.technical_problem">Iškilo techninė problema. Prašome susisiekti per pagalbos langą</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.AccessStep -->
-	<message key="xmlui.Submission.submit.AccessStep.head">Access Settings</message>
-	<message key="xmlui.Submission.submit.AccessStep.access_settings">Visible to a group of selected users (no selection needed for Anonymous)</message>
-	<message key="xmlui.Submission.submit.AccessStep.open_access">Allow access once item is accepted into archive</message>
-	<message key="xmlui.Submission.submit.AccessStep.embargo">Embargo until specific date</message>
-	<message key="xmlui.Submission.submit.AccessStep.embargo_visible">Access for selected group</message>
-	<message key="xmlui.Submission.submit.AccessStep.name">Policy name</message>
-	<message key="xmlui.Submission.submit.AccessStep.name_help">A short, descriptive name for the policy (up to 30 characters). May be shown to end users. Example: "Staff-only". Optional but recommended.</message>
-	<message key="xmlui.Submission.submit.AccessStep.description">Description</message>
-	<message key="xmlui.Submission.submit.AccessStep.reason">Embargo reason</message>
-	<message key="xmlui.Submission.submit.AccessStep.reason_help">The reason for the embargo, typically for internal use only. Optional.</message>
-	<message key="xmlui.Submission.submit.AccessStep.submit_add_policy">Confirm Policy &amp; add another</message>
-	<message key="xmlui.Submission.submit.AccessStep.list_assigned_groups">Group</message>
-	<message key="xmlui.Submission.submit.AccessStep.error_format_date">Error format date</message>
-	<message key="xmlui.Submission.submit.AccessStep.error_missing_date">When Embargo selected, date is required</message>
-	<message key="xmlui.Submission.submit.AccessStep.error_duplicated_policy">An identical policy for this group and this action is already in place.</message>
-	<message key="xmlui.Submission.submit.AccessStep.table_policies">Group policies</message>
-	<message key="xmlui.Submission.submit.AccessStep.policies_help">Policies listed in this section override any default policies for the collection you're submitting to. If you wish to set an embargo but the target collection allows access for any user, you must set a policy that allows access for the Anonymous group only from a specific date onwards.</message>
-	<message key="xmlui.Submission.submit.AccessStep.no_policies">No group policies have been set up for this item.</message>
+	<message key="xmlui.Submission.submit.AccessStep.head">Prieigos nustatymai</message>
+	<message key="xmlui.Submission.submit.AccessStep.access_settings">Matoma pasirinktų vartotojų grupei (no selection needed for Anonymous)</message>
+	<message key="xmlui.Submission.submit.AccessStep.open_access">Leisti prieigą, kai įrašas priimamas į archyvą</message>
+	<message key="xmlui.Submission.submit.AccessStep.embargo">Draudimas iki konkrečios datos</message>
+	<message key="xmlui.Submission.submit.AccessStep.embargo_visible">Prieiga pasirinktai grupei</message>
+	<message key="xmlui.Submission.submit.AccessStep.name">Prieigos valdymo politikos pavadinimas</message>
+	<message key="xmlui.Submission.submit.AccessStep.name_help">Trumpas, apibūdinantis prieigos valdymo politikos pavadinimas (iki 30 simbolių). Gali būti matomas galutiniams vartotojams, pavyzdžiui, "Staff-only". Pasirenkamas, tačiau rekomenduojamas.</message>
+	<message key="xmlui.Submission.submit.AccessStep.description">Aprašymas</message>
+	<message key="xmlui.Submission.submit.AccessStep.reason">Draudimo priežastis</message>
+	<message key="xmlui.Submission.submit.AccessStep.reason_help">Draudimo priežastis, paprastai skirta tik vidiniam naudojimui. Pasirenkama.</message>
+	<message key="xmlui.Submission.submit.AccessStep.submit_add_policy">Patvirtinti politiką ir pridėti kitą</message>
+	<message key="xmlui.Submission.submit.AccessStep.list_assigned_groups">Grupė</message>
+	<message key="xmlui.Submission.submit.AccessStep.error_format_date">Klaida datos parinkime</message>
+	<message key="xmlui.Submission.submit.AccessStep.error_missing_date">Kai parinktas draudimas, data privaloma</message>
+	<message key="xmlui.Submission.submit.AccessStep.error_duplicated_policy">Identiška prieigos valdymo politika šiai grupei ir veiksmui jau yra sukurta.</message>
+	<message key="xmlui.Submission.submit.AccessStep.table_policies">Prieigos valdymo politikų grupės</message>
+	<message key="xmlui.Submission.submit.AccessStep.policies_help">Šiame skyriuje išvardintos prieigos valdymo politikos nepaiso numatytųjų pradinių politikų šiam rinkiniui, kurį ketinate įkelti. Jeigu norite nustatyti draudimą įkeliamam turiniui, bet rinkinys, į kurį keliamas turinys leidžia prieigą bet kuriam vartotojui, Jūs turite nustatyti prieigos valdymo politiką taip, kad prieiga anoniminei grupei būtų leistina nuo tam tikros datos ateityje.</message>
+	<message key="xmlui.Submission.submit.AccessStep.no_policies">Šiam elementui nenustatyta jokia grupių prieigos valdymo politika.</message>
 	<message key="xmlui.Submission.submit.AccessStep.new_policy_head">Embargas</message>
-	<message key="xmlui.Submission.submit.AccessStep.private_settings">Private item</message>
-	<message key="xmlui.Submission.submit.AccessStep.private_settings_help">If selected, the item won't be searchable</message>
-	<message key="xmlui.Submission.submit.AccessStep.private_settings_label">Private</message>
-	<message key="xmlui.Submission.submit.AccessStep.column0">Name</message>
-	<message key="xmlui.Submission.submit.AccessStep.column1">Action</message>
-	<message key="xmlui.Submission.submit.AccessStep.column2">Group</message>
-	<message key="xmlui.Submission.submit.AccessStep.column3">Start Date</message>
-	<message key="xmlui.Submission.submit.AccessStep.column4">End Date</message>
+	<message key="xmlui.Submission.submit.AccessStep.private_settings">Privatus įrašas</message>
+	<message key="xmlui.Submission.submit.AccessStep.private_settings_help">Jei pasirinksite, įrašo nebus galima rasti paieškoje</message>
+	<message key="xmlui.Submission.submit.AccessStep.private_settings_label">Privatu</message>
+	<message key="xmlui.Submission.submit.AccessStep.column0">Pavadinimas</message>
+	<message key="xmlui.Submission.submit.AccessStep.column1">Veiksmas</message>
+	<message key="xmlui.Submission.submit.AccessStep.column2">Grupė</message>
+	<message key="xmlui.Submission.submit.AccessStep.column3">Pradžios data</message>
+	<message key="xmlui.Submission.submit.AccessStep.column4">Pabaigos data</message>
 	<message key="xmlui.Submission.submit.AccessStep.table_edit_button">Redaguoti</message>
 	<message key="xmlui.Submission.submit.AccessStep.table_delete_button">Ištrinti</message>
-	<message key="xmlui.administrative.authorization.AccessStep.label_date_help">The first day from which access is allowed. Accepted format: yyyy, yyyy-mm, yyyy-mm-dd</message>
-	<message key="xmlui.Submission.submit.AccessStep.review_policy_line">Name: {0}; action: {1}, group: {2}, start date: {3}, end date: {4}</message>
-	<message key="xmlui.Submission.submit.AccessStep.review_public_item">The item will be searchable</message>
-	<message key="xmlui.Submission.submit.AccessStep.review_private_item">The item will not be searchable</message>
+	<message key="xmlui.administrative.authorization.AccessStep.label_date_help">Pirma diena, nuo kurios yra leidžiama prieiga. Tinkamas formatas: MMMM, MMMM-mm, MMMM-mm-dd</message>
+	<message key="xmlui.Submission.submit.AccessStep.review_policy_line">Pavadinimas: {0}; veiksmas: {1}, grupė: {2}, pradžios data: {3}, pabaigos data: {4}</message>
+	<message key="xmlui.Submission.submit.AccessStep.review_public_item">Elementas bus aptinkamas paieškoje</message>
+	<message key="xmlui.Submission.submit.AccessStep.review_private_item">Elementas nebus aptinkamas paieškoje</message>
 
 
 
     <!-- org.dspace.app.xmlui.Submission.submit.EditPolicyStep -->
-    <message key="xmlui.Submission.submit.EditPolicyStep.head">Edit Policy</message>
+    <message key="xmlui.Submission.submit.EditPolicyStep.head">Redagavimo politika</message>
 
     <!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
-	<message key="xmlui.Submission.submit.UploadStep.head">Upload File(s)</message>
-	<message key="xmlui.Submission.submit.UploadStep.file">File</message>
-    <message key="xmlui.Submission.submit.UploadStep.file_help">Please enter the full path of the file on your computer corresponding to your item. If you click "Browse...", a new window will allow you to select the file from your computer. <div class='alert'>When uploading language resources, please try to use one of the recommended formats mentioned in <a href='http://www.clarin.eu/sites/default/files/Standards%20for%20LRT-v6.pdf' target='_blank'>LRT Standards</a></div><div class='alert'>Uploading <strong>files larger than {0} </strong> requires special handling. Please contact <a class="helpdesk-tolink">Help Desk</a> about how to upload these files. Thank you for your understanding.</div></message>
-    <message key="xmlui.Submission.submit.UploadStep.file_local_head">Add files from URI</message>
+	<message key="xmlui.Submission.submit.UploadStep.head">Įkelti bylą(-as)</message>
+	<message key="xmlui.Submission.submit.UploadStep.file">Byla</message>
+    <message key="xmlui.Submission.submit.UploadStep.file_help">Prašome įvesti pilną elementą atitinkančios bylos kelią Jūsų kompiuteryje. Jei paspausite "Pasirinkti...", naujame lange galėsite pasirinkti bylą iš Jūsų kompiuterio. <div class='alert'>Prašome įkeliant kalbinius išteklius naudoti vieną iš mūsų rekomenduojamų formatų, kurie paminėti <a href='http://www.clarin.eu/sites/default/files/Standards%20for%20LRT-v6.pdf' target='_blank'>LRT standartai</a></div><div class='alert'>Įkėlimas <strong>bylų didesnių nei {0} </strong> reikalauja individualaus tvarkymo. Prašome susisiekti per <a class="helpdesk-tolink">pagalbos langą</a> siekiant išsiaiškinti, kaip įkelti tokius failus. Ačiū už Jūsų supratingumą.</div></message>
+    <message key="xmlui.Submission.submit.UploadStep.file_local_head">Pridėti failus URI</message>
     <message key="xmlui.Submission.submit.UploadStep.file_local_help">Please enter the full path of the file available on local server or from a http location.</message>
 	<message key="xmlui.Submission.submit.UploadStep.file_error">The item must contain at least one file.</message>
     <message key="xmlui.Submission.submit.UploadStep.file_error.internal">The uploaded file probably exceeded max file size. Please, contact the administrator.</message>
@@ -1116,7 +1116,7 @@
 	<message key="xmlui.Submission.submit.LicenseStep.decision_error">You must grant this license to complete your submission. If you are unable to grant this license at this time you may save your work and return later or remove the submission by clicking the 'Save &amp; Exit' button below.</message>
 
 
-    <message key="xmlui.Submission.submit.LicenseStep.morelicense_head">None of these licenses suits your needs</message>
+    <message key="xmlui.Submission.submit.LicenseStep.morelicense_head">Nei viena iš licencijų neatitinka Jūsų poreikių</message>
     <message key="xmlui.Submission.submit.LicenseStep.morelicense_line1">If you need to use a license we currently do not offer, proceed as follows:</message>
     <message key="xmlui.Submission.submit.LicenseStep.morelicense_line2">Obtain a link (or a copy) to the license.</message>
     <message key="xmlui.Submission.submit.LicenseStep.morelicense_line3">Send an email to <a class="helpdesk-tolink">Help Desk</a> with the license details.</message>
