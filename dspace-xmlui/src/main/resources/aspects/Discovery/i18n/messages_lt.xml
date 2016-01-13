@@ -32,7 +32,7 @@
     <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.contributor.author_filter">Autorius</message>
 
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">Subjektas</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">Tema</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">Turinio tipas</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">Publikavimo data</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">Publikavimo data</message>
@@ -48,53 +48,53 @@
     <message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">Neseniai pridėta</message>
 
     <message key="xmlui.ArtifactBrowser.AbstractRecentSubmissionTransformer.recent_submissions_more">Žiūrėti daugiau</message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.head">{0}: Recent submissions</message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.trail">Recent submissions</message>
-    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.recent.head">Recently added</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.head">{0}: Naujausi įkėlimai</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.trail">Naujausi įkėlimai</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.recent.head">Neseniai pridėta</message>
 
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type_filter">Kind</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type_filter">Rūšis</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_publisher_filter">Leidėjas</message>
 
 
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.ispartof">Parent</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.ispartof">Tėvinis</message>
 
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by">Group Results By</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.none">None</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by">Grupuoti rezultatus pagal</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.none">Nieką</message>
 
 
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.publication_grp">Publication</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.publication_grp">Paskelbimą</message>
 
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.comm">Kolekcija</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.coll">Rinkinys</message>
 
 
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.relation.ispartofseries_filter">Series</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.relation.ispartofseries_filter">Serijos</message>
 
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.contributor.author_browse">Browsing by: Author</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.title_browse">Browsing by: Title</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.subject_browse">Browsing by: Subject</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.contributor.author_browse">Filtravimas pagal: autorių</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.title_browse">Filtravimas pagal: pavadinimą</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.subject_browse">Filtravimas pagal: temą</message>
 
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">Browsing by: Abstract</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">Browsing by: Series</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">Browsing by: Sponsor</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">Browsing by: Identifier</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">Browsing by: Language (ISO)</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">Browsing by: Keyword</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">Browsing by: Scientific Name</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_contributor_browse">Browsing by: Contributor</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_creator_browse">Browsing by: Creator</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_subject_browse">Browsing by: Subject</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_description_browse">Browsing by: Description</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_relation_browse">Browsing by: Relation</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_mime_browse">Browsing by: Mime-Type</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_other_browse">Browsing by: Other Contributor</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_advisor_browse">Browsing by: Advisor</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">Browsing by: Department</message>
-    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">Browsing by: Issue date</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">Filtravimas pagal: santrauką</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">Filtravimas pagal: seriją</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">Filtravimas pagal: rėmėją</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">Filtravimas pagal: identifikatorių</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">Filtravimas pagal: kalbą (ISO)</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">Filtravimas pagal: raktažodį</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">Filtravimas pagal: mokslinį vardą</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_contributor_browse">Filtravimas pagal: teikėją</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_creator_browse">Filtravimas pagal: autorių</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_subject_browse">Filtravimas pagal: temą</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_description_browse">Filtravimas pagal: aprašymą</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_relation_browse">Filtravimas pagal: ryšį</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_mime_browse">Filtravimas pagal: Mime tipą</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_other_browse">Filtravimas pagal: kitą veiksnį</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_advisor_browse">Filtravimas pagal: patarėją</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">Filtravimas pagal: departamentą</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">Filtravimas pagal: užduoties sukūrimo datą</message>
 
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Autorius</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">Pavadinimas</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Subjektas</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Tema</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">Publikavimo data</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.selected">Pasirinkti filtrai</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.rights">Teisės</message>
@@ -107,12 +107,12 @@
 
     <message key="xmlui.dri2xhtml.structural.pagination-info.nototal">Rodomi įrašai {0}-{1}</message>
 
-    <message key="xmlui.Discovery.AbstractSearch.type_author">Filtravimas pagal: Autorių</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_author">Filtravimas pagal: autorių</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">Autorius</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author_filter">Autorius</message>
-    <message key="xmlui.Discovery.AbstractSearch.type_subject">Filtravimas pagal: Subjektą</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Subjektas</message>
-    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject_filter">Subjektas</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_subject">Filtravimas pagal: temą</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Tema</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject_filter">Tema</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued.year">Išleidimo data</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.rights_filter">Teisės</message>
 
@@ -128,7 +128,7 @@
 
     <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_asc">Pavadinimas (didėj.)</message>
     <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_asc">Publikavimo data (didėj.)</message>
-    <message key="xmlui.Discovery.AbstractSearch.type_language">Rūšiavimas pagal: Kalbą</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_language">Rūšiavimas pagal: kalbą</message>
 
     <message key="xmlui.Discovery.AbstractSearch.rpp">Rezultatų puslapyje:</message>
 
@@ -170,15 +170,15 @@
     <message key="xmlui.Discovery.SimpleSearch.filter.notauthority">Ne ID</message>
 
     <message key="xmlui.Discovery.RelatedItems.head">Susiję įrašai</message>
-    <message key="xmlui.Discovery.RelatedItems.help">Showing items related by title, author, creator and subject.</message>
+    <message key="xmlui.Discovery.RelatedItems.help">Rodomi įrašai, susiję pavadinimu, autoriumi ir tema.</message>
 
-    <message key="xmlui.Discovery.AbstractSearch.head1_community">Showing {0} out of a total of {1} results for community: {2}. <span class="searchTime">({3} seconds)</span></message>
-   	<message key="xmlui.Discovery.AbstractSearch.head1_collection">Showing {0} out of a total of {1} results for collection: {2}. <span class="searchTime">({3} seconds)</span></message>
-   	<message key="xmlui.Discovery.AbstractSearch.head1_none">Showing {0} out of a total of {1} results. <span class="searchTime">({2} seconds)</span></message>
+    <message key="xmlui.Discovery.AbstractSearch.head1_community">Rodoma {0} iš {1} rezultatų kolekcijai: {2}. <span class="searchTime">({3} sekundės)</span></message>
+   	<message key="xmlui.Discovery.AbstractSearch.head1_collection">Rodoma {0} iš {1} rezultatų rinkiniui: {2}. <span class="searchTime">({3} sekundės)</span></message>
+   	<message key="xmlui.Discovery.AbstractSearch.head1_none">Rodoma {0} iš {1} rezultatų. <span class="searchTime">({2} sekundės)</span></message>
 
     <message key="xmlui.Discovery.AbstractSearch.head2">Kolekcijos ir rinkiniai, atitinkantys užklausą</message>
    	<message key="xmlui.Discovery.AbstractSearch.head3">Įrašai, atitinkantys užklausą</message>
 
-   	<message key="xmlui.Discovery.SimpleSearch.did_you_mean">Did you mean: </message>
+   	<message key="xmlui.Discovery.SimpleSearch.did_you_mean">Ar Jūs turėjote omenyje: </message>
 
 </catalogue>
