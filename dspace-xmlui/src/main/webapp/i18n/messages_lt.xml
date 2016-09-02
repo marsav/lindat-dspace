@@ -70,7 +70,7 @@
 	<!--
 		This section is for feed syndications (RSS, atom, etc)
 	-->
-    <message key="xmlui.feed.general_description">LINDAT/CLARIN skaitmeninės saugyklos sistema fiksuoja, išsaugo, indeksuoja, paskirsto skaitmeninę tyrimų medžiagą.</message>
+    <message key="xmlui.feed.general_description">CLARIN-LT skaitmeninės saugyklos sistema fiksuoja, išsaugo, indeksuoja, paskirsto skaitmeninę tyrimų medžiagą.</message>
     <message key="xmlui.feed.header">RSS Srautai</message>
 	<message key="xmlui.feed.logo_title">Kanalo iliustracija</message>
 	<message key="xmlui.feed.untitled">Neapibrėžtas</message>
@@ -609,7 +609,7 @@
     <!-- org.dspace.app.xmlui.eperson.WelcomeLogin.java -->
     <message key="xmlui.EPerson.WelcomeLogin.title">Pasveikinimo žinutė</message>
     <message key="xmlui.EPerson.WelcomeLogin.trail">Pasveikinimo žinutė</message>
-    <message key="xmlui.EPerson.WelcomeLogin.head1">Sveiki atvykę į LINDAT/CLARIN saugyklą</message>
+    <message key="xmlui.EPerson.WelcomeLogin.head1">Sveiki atvykę į CLARIN-LT saugyklą</message>
     <message key="xmlui.EPerson.WelcomeLogin.head2">Privatumo patvirtinimas</message>
     <message key="xmlui.EPerson.WelcomeLogin.para1">Žemiau matoma informacija yra išleista Jūsų IdP (namų organizacijos).</message>
     <message key="xmlui.EPerson.WelcomeLogin.warn1"><div class="bold text-error">Mes naudojame tik reikalaujamus atributus kaip išdėstyta <a href="http://lindat.mff.cuni.cz/privacypolicy.html" target="_blank" class="bold">http://lindat.mff.cuni.cz/privacypolicy.html</a>.<BR />Vis dėlto mes galime registruoti atributus ir saugoti juos tam tikrą laiko tarpą.</div></message>
@@ -2907,7 +2907,7 @@
 
     <!-- ufal theme -->
   <message key="UFAL.firstpage.title">Saugykla</message>
-  <message key="UFAL.firstpage.title.text">Sveiki atvykę į LINDAT/CLARIN - kalbos tyrimo infrastruktūros centrą Čekijos respublikoje</message>
+  <message key="UFAL.firstpage.title.text">Sveiki atvykę į CLARIN-LT - kalbos tyrimo infrastruktūros centrą Lietuvos respublikoje</message>
 
   <!-- UFAL/lib/xsl/aspect/artifactbrowser/item-list.xsl -->
   <message key="xmlui.UFAL.artifactbrowser.item-contains-one-file">Šis įrašas turi {0} bylą ({1}).</message>
